@@ -31,7 +31,7 @@
 #define get_tsc_khz() cpu_khz // tsc_khz
 #elif defined(CONFIG_PPC64)
 #define get_tsc_khz() (get_cycles()/1000)
-#elif defined(aarch64)
+#elif defined(CONFIG_ARM64)
 #define get_tsc_khz() (get_cycles()/1000)
 #else
 #error "X86_64/32 or PPC64 is required"
