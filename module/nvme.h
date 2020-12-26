@@ -401,6 +401,7 @@ struct nvme_dev {
 	u8 vwc;
 };
 
+/*
 int nvme_key_command(struct block_device *bdev,unsigned long arg,int mode); //key_value
 int nvme_key_batch_command(struct block_device *bdev, unsigned long arg, int len,int mode); 
 unsigned int nvme_key_max_segments(struct block_device *bdev);
@@ -412,7 +413,7 @@ struct nvme_iod *nvme_map_user_pages(struct nvme_dev *dev, int write,
 				unsigned long addr, unsigned length);
 void nvme_unmap_user_pages(struct nvme_dev *dev, int write,
 			struct nvme_iod *iod);
-
+*/
 #endif /* CONFIG_NVM */
 
 int __init nvme_core_init(void);

@@ -313,6 +313,7 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
         spin_lock_init(&(batch_list.lock));
     }
     for (i = 0; i < len; i ++) {
+        struct request*tmpReq;
         // num은 push_list의 idx
         num = buf_list[i].num;
         memset(&(cmd_list[num]), 0, sizeof(Command_list));
@@ -346,7 +347,9 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
                 printk("key_batch | nvme_map_user_pages fail!\n"); ret=-1; goto batch_op_out;
             }
         }
-        length = nvme_setup_prps(ns_dev, list[i]->iod, list[i]->length, GFP_KERNEL);
+        tmpReq = blk_mq_rq_from_pdu(list[i]->iod);
+		length=nvme_setup_prps(dev,tmpReq,list[i]->length);
+        //length = nvme_setup_prps(ns_dev, list[i]->iod, list[i]->length, GFP_KERNEL);
         list[i]->c.common.dptr.prp1 = cpu_to_le64(sg_dma_address(list[i]->iod->sg));
         list[i]->c.common.dptr.prp2 = cpu_to_le64(list[i]->iod->first_dma);
 
@@ -382,10 +385,13 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
     if(mode==0){ ///batch_sync
         for(i=0;i<len;i++){
             int t;
+            struct request*tmpReq;
             if(list[i]->c.common.opcode==PUT){
                 nvme_unmap_user_pages(ns_dev, list[i]->c.common.opcode & 1, list[i]->iod);
             }
-            nvme_free_iod(ns_dev,list[i]->iod);
+            tmpReq = blk_mq_rq_from_pdu(list[i]->iod);
+            nvme_free_iod(ns_dev,tmpReq);
+            //nvme_free_iod(ns_dev,list[i]->iod);
             t=complete_list[list[i]->num].status;
             if(t!=0){
                 if(t==STATUS_INIT) printk("key_batch_sync | WHY STATUS_INIT_VALUE!!!\n");
@@ -423,14 +429,19 @@ int Complete_Process(void *data) {
 //      if(f==r) schedule();
         while(f!=r){
             i=p_list.node[f];
+            
             // STATUS_INIT == -1. If we call key_batch_command, complete_list[i] is initialized as 0 
             // check STATUS_INIT for batch_sync(for check only one thread)
             if (complete_list[i].status!=STATUS_INIT) { //무조건 들어가야지.
 //              printk("request_complete : %d\n",i);
+                struct request*tmpReq;
                 if(complete_list[i].mode==PUT){
                     nvme_unmap_user_pages(ns_dev,cmd_list[i].c.common.opcode & 1, cmd_list[i].iod);
                 }
-                nvme_free_iod(ns_dev,cmd_list[i].iod);
+                tmpReq = blk_mq_rq_from_pdu(cmd_list[i].iod);
+                nvme_free_iod(ns_dev,tmpReq);
+                //nvme_free_iod(ns_dev,cmd_list[i].iod);
+                
                 if (complete_list[i].status == 0) result_value = complete_list[i].length;
                 else result_value = -1;
                 complete_list[i].status = STATUS_INIT;
