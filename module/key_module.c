@@ -348,7 +348,7 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
             }
         }
         tmpReq = blk_mq_rq_from_pdu(list[i]->iod);
-		length=nvme_setup_prps(dev,tmpReq,list[i]->length);
+		length=nvme_setup_prps(ns_dev,tmpReq,list[i]->length);
         //length = nvme_setup_prps(ns_dev, list[i]->iod, list[i]->length, GFP_KERNEL);
         list[i]->c.common.dptr.prp1 = cpu_to_le64(sg_dma_address(list[i]->iod->sg));
         list[i]->c.common.dptr.prp2 = cpu_to_le64(list[i]->iod->first_dma);
