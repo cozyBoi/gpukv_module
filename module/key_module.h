@@ -142,6 +142,7 @@ int key_pin_buf(void __user *_param);
 int key_unpin_buf(void __user *_param);
 void get_p2p_free_callback(void *data);
 extern int nvme_key_command(struct block_device *bdev, unsigned long arg,int mode);
+extern unsigned int nvme_key_max_segments(struct block_device *bdev);
 ////////////////////////////////////////////////////
 
 #endif
