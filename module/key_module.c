@@ -38,6 +38,9 @@
 //#include "fs_initializer.cu.h"
 //
 
+struct nvme_dev;
+struct nvme_iod;
+
 ///////for key_value_open
 static char* nvme_name = NULL;
 static struct file* nvme_dev_f = NULL;
