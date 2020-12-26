@@ -36,10 +36,14 @@
 #include "nv-p2p.h"
 #include "key-p2p.h"
 #include "key_module.h"
-#include "nvme.h"
+//#include "nvme.h"
 //#include "fs_initializer.cu.h"
 //
-extern*nvme_map_user_pages
+extern nvme_iod*nvme_map_user_pages(struct nvme_dev *dev, int write, unsigned long addr, unsigned length);
+extern bool nvme_setup_prps(struct nvme_dev *dev, struct request *req, int total_len);
+extern int nvme_key_batch_command(struct block_device *bdev, unsigned long arg, int len,int mode);
+extern void nvme_unmap_user_pages(struct nvme_dev *dev, int write, struct nvme_iod *iod);
+extern void nvme_free_iod(struct nvme_dev *dev, struct request *req);
 ///////for key_value_open
 static char* nvme_name = NULL;
 static struct file* nvme_dev_f = NULL;
