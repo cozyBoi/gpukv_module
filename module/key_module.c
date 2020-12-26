@@ -31,6 +31,7 @@
 //#include<linux/jffies.h>
 #include<linux/wait.h>
 #include<linux/nvme_ioctl.h>
+#include<drivers/nvme/host/nvme.h>
 //needed page_mask header file
 /////////////////////////
 #include "nv-p2p.h"
