@@ -53,7 +53,7 @@ static struct block_device* nvme_bdev;
 static struct nvme_dev *ns_dev;
 static struct nvme_ns *ns;
 static int shift_value;
-extern struct nvme_iod;
+
 ///////ioctl
 static struct file_operations inter_fops =
 {
