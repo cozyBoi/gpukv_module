@@ -30,6 +30,7 @@
 #include<linux/string.h>
 //#include<linux/jffies.h>
 #include<linux/wait.h>
+#include<linux/nvme_ioctl.h>
 //needed page_mask header file
 /////////////////////////
 #include "nv-p2p.h"
@@ -37,10 +38,7 @@
 #include "key_module.h"
 //#include "fs_initializer.cu.h"
 //
-
-struct nvme_dev;
-struct nvme_iod;
-
+extern*nvme_map_user_pages
 ///////for key_value_open
 static char* nvme_name = NULL;
 static struct file* nvme_dev_f = NULL;
@@ -343,8 +341,8 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
             }
         }
         length = nvme_setup_prps(ns_dev, list[i]->iod, list[i]->length, GFP_KERNEL);
-        list[i]->c.common.prp1 = cpu_to_le64(sg_dma_address(list[i]->iod->sg));
-        list[i]->c.common.prp2 = cpu_to_le64(list[i]->iod->first_dma);
+        list[i]->c.common.dptr.prp1 = cpu_to_le64(sg_dma_address(list[i]->iod->sg));
+        list[i]->c.common.dptr.prp2 = cpu_to_le64(list[i]->iod->first_dma);
 
         //list[i]->timout = ADMIN_TIMOUT;
         list[i]->cmdinfo.res = &(complete_list[num]);
