@@ -31,12 +31,12 @@
 //#include<linux/jffies.h>
 #include<linux/wait.h>
 #include<linux/nvme_ioctl.h>
-#include<drivers/nvme/host/nvme.h>
 //needed page_mask header file
 /////////////////////////
 #include "nv-p2p.h"
 #include "key-p2p.h"
 #include "key_module.h"
+#include "nvme.h"
 //#include "fs_initializer.cu.h"
 //
 extern*nvme_map_user_pages
