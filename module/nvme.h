@@ -22,7 +22,38 @@
 /*key_value*/
 #include <linux/fs.h>
 ///////////
-
+#include <linux/aer.h>
+#include <linux/bitops.h>
+#include <linux/blkdev.h>
+#include <linux/blk-mq.h>
+#include <linux/blk-mq-pci.h>
+#include <linux/cpu.h>
+#include <linux/delay.h>
+#include <linux/errno.h>
+#include <linux/fs.h>
+#include <linux/genhd.h>
+#include <linux/hdreg.h>
+#include <linux/idr.h>
+#include <linux/init.h>
+#include <linux/interrupt.h>
+#include <linux/io.h>
+#include <linux/kdev_t.h>
+#include <linux/kernel.h>
+#include <linux/mm.h>
+#include <linux/module.h>
+#include <linux/moduleparam.h>
+#include <linux/mutex.h>
+#include <linux/pci.h>
+#include <linux/poison.h>
+#include <linux/ptrace.h>
+#include <linux/sched.h>
+#include <linux/slab.h>
+#include <linux/t10-pi.h>
+#include <linux/timer.h>
+#include <linux/types.h>
+#include <linux/io-64-nonatomic-lo-hi.h>
+#include <asm/unaligned.h>
+#include <linux/nvme_ioctl.h>
 
 enum {
 	/*
@@ -148,7 +179,17 @@ struct nvme_ctrl {
 	u16 maxcmd;
 	struct nvmf_ctrl_options *opts;
 };
-
+struct nvme_iod {
+	struct nvme_queue *nvmeq;
+	int aborted;
+	int npages;		/* In the PRP list. 0 means small pool in use */
+	int nents;		/* Used in scatterlist */
+	int length;		/* Of data, in bytes */
+	dma_addr_t first_dma;
+	struct scatterlist meta_sg; /* metadata requires single contiguous buffer */
+	struct scatterlist *sg;
+	struct scatterlist inline_sg[0];
+};
 /*
  * An NVM Express namespace is equivalent to a SCSI LUN
  */
