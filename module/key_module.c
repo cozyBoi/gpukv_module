@@ -16,6 +16,8 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/smp.h>
+#include <asm/timex.h>
+#include <asm/arch_timer.h>
 //////////////////////////////
 #include <linux/blkdev.h>
 //#include <linux/nvme_ioctl.h>
