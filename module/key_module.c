@@ -116,8 +116,8 @@ long Key_map_p2p_pages(unsigned long _iod,unsigned long _dev, unsigned long _off
     iod=kmalloc(sizeof(struct nvme_iod) + sizeof(__le64 *) * (DIV_ROUND_UP(8*nprps,PAGE_SIZE-8) )+sizeof(struct scatterlist)*count,GFP_KERNEL);
 
     if(iod){
-        iod->private=(unsigned long)0;
-        iod->offset=offsetof(struct nvme_iod,sg[count]);
+        //iod->private=(unsigned long)0;
+        //iod->offset=offsetof(struct nvme_iod,sg[count]);
         iod->npages=-1;
         iod->length=length;
         iod->nents=0;
