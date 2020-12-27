@@ -1,1 +1,1 @@
-cmd_/home/asknor/atc/kv_gpufs/module/key_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/asknor/atc/kv_gpufs/module/key_module.ko /home/asknor/atc/kv_gpufs/module/key_module.o /home/asknor/atc/kv_gpufs/module/key_module.mod.o
+cmd_/home/jlee/Desktop/gpukv/module/key_module.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/jlee/Desktop/gpukv/module/key_module.ko /home/jlee/Desktop/gpukv/module/key_module.o /home/jlee/Desktop/gpukv/module/key_module.mod.o ;  true

@@ -47,11 +47,6 @@ extern int nvme_key_batch_command(struct block_device *bdev, unsigned long arg, 
 extern void nvme_unmap_user_pages(struct nvme_dev *dev, int write, struct nvme_iod *iod);
 extern void nvme_free_iod(struct nvme_dev *dev, struct request *req);
 */
-struct nvme_iod*nvme_map_user_pages(struct nvme_dev *dev, int write, unsigned long addr, unsigned length);
-bool nvme_setup_prps(struct nvme_dev *dev, struct request *req, int total_len);
-int nvme_key_batch_command(struct block_device *bdev, unsigned long arg, int len,int mode);
-void nvme_unmap_user_pages(struct nvme_dev *dev, int write, struct nvme_iod *iod);
-void nvme_free_iod(struct nvme_dev *dev, struct request *req);
 
 
 ///////for key_value_open
@@ -322,7 +317,8 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
         spin_lock_init(&(batch_list.lock));
     }
     for (i = 0; i < len; i ++) {
-        struct request*tmpReq;
+        struct request*tmpReq = blk_mq_alloc_request(ns->queue, WRITE, 1);
+        list[i]->iod = blk_mq_rq_to_pdu(tmpReq);
         // num은 push_list의 idx
         num = buf_list[i].num;
         memset(&(cmd_list[num]), 0, sizeof(Command_list));
@@ -394,11 +390,10 @@ long key_batch_command(unsigned long _buf, int len,int mode) {///////mode0 : bat
     if(mode==0){ ///batch_sync
         for(i=0;i<len;i++){
             int t;
-            struct request*tmpReq;
             if(list[i]->c.common.opcode==PUT){
                 nvme_unmap_user_pages(ns_dev, list[i]->c.common.opcode & 1, list[i]->iod);
             }
-            tmpReq = blk_mq_rq_from_pdu(list[i]->iod);
+            struct request*tmpReq = blk_mq_rq_from_pdu(list[i]->iod);
             nvme_free_iod(ns_dev,tmpReq);
             //nvme_free_iod(ns_dev,list[i]->iod);
             t=complete_list[list[i]->num].status;

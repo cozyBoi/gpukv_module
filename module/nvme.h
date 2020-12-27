@@ -455,6 +455,12 @@ struct nvme_iod *nvme_map_user_pages(struct nvme_dev *dev, int write,
 void nvme_unmap_user_pages(struct nvme_dev *dev, int write,
 			struct nvme_iod *iod);
 */
+struct nvme_iod*nvme_map_user_pages(struct nvme_dev *dev, int write, unsigned long addr, unsigned length);
+bool nvme_setup_prps(struct nvme_dev *dev, struct request *req, int total_len);
+int nvme_key_batch_command(struct block_device *bdev, unsigned long arg, int len,int mode);
+void nvme_unmap_user_pages(struct nvme_dev *dev, int write, struct nvme_iod *iod);
+void nvme_free_iod(struct nvme_dev *dev, struct request *req);
+
 #endif /* CONFIG_NVM */
 
 int __init nvme_core_init(void);
