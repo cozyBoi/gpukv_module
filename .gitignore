@@ -1,0 +1,12 @@
+*.o
+*.deb
+*.ko
+*.swp
+*.mod
+*.mod.c
+*.txt
+**/libgpufs.a
+lib/
+**/Module.symvers
+**/modules.order
+!module/

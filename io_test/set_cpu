@@ -1,0 +1,32 @@
+#!/bin/bash
+
+num_cpu=$1
+clock=$2
+
+cpufreq-set -g userspace
+
+if [ "$num_cpu" == 2 ]; then
+	echo 1 > /sys/devices/system/cpu/cpu1/online
+	echo 0 > /sys/devices/system/cpu/cpu2/online
+	echo 0 > /sys/devices/system/cpu/cpu3/online
+
+	cpufreq-set -c 0 -d $clock -u $clock
+	cpufreq-set -c 1 -d $clock -u $clock
+elif [ "$num_cpu" == 3 ]; then	
+	echo 1 > /sys/devices/system/cpu/cpu1/online
+	echo 1 > /sys/devices/system/cpu/cpu2/online
+	echo 0 > /sys/devices/system/cpu/cpu3/online
+
+	cpufreq-set -c 0 -d $clock -u $clock
+	cpufreq-set -c 1 -d $clock -u $clock
+	cpufreq-set -c 2 -d $clock -u $clock
+else
+	echo 1 > /sys/devices/system/cpu/cpu1/online
+	echo 1 > /sys/devices/system/cpu/cpu2/online
+	echo 1 > /sys/devices/system/cpu/cpu3/online
+
+	cpufreq-set -c 0 -d $clock -u $clock
+	cpufreq-set -c 1 -d $clock -u $clock
+	cpufreq-set -c 2 -d $clock -u $clock
+	cpufreq-set -c 3 -d $clock -u $clock
+fi

@@ -1,0 +1,103 @@
+In file included from bfs.cu:10:0:
+../../../include/gardenia/common.h:59:0: warning: "NUM_WARPS" redefined
+ #define NUM_WARPS (BLOCK_SIZE / WARP_SIZE)
+ 
+In file included from ../../../include/gpukv/fs_calls.cu.h:24:0,
+                 from bfs.cu:4:
+../../../include/gpukv/util.cu.h:63:0: note: this is the location of the previous definition
+ #define NUM_WARPS ((blockDim.x * blockDim.y * blockDim.z) >> 5)
+ 
+bfs.cu(17): warning: variable "id" was declared but never referenced
+
+In file included from bfs.cu:10:0:
+../../../include/gardenia/common.h:59:0: warning: "NUM_WARPS" redefined
+ #define NUM_WARPS (BLOCK_SIZE / WARP_SIZE)
+ 
+In file included from ../../../include/gpukv/fs_calls.cu.h:24:0,
+                 from bfs.cu:4:
+../../../include/gpukv/util.cu.h:63:0: note: this is the location of the previous definition
+ #define NUM_WARPS ((blockDim.x * blockDim.y * blockDim.z) >> 5)
+ 
+../../../include/gardenia/cutil_subset.h: In function ‘unsigned int CudaTest(const char*)’:
+../../../include/gardenia/cutil_subset.h:30:23: warning: ‘cudaError_t cudaThreadSynchronize()’ is deprecated [-Wdeprecated-declarations]
+  cudaThreadSynchronize();
+                       ^
+/usr/local/cuda/include/cuda_runtime_api.h:955:46: note: declared here
+ extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+                                              ^~~~~~~~~~~~~~~~~~~~~
+In file included from bfs.cu.h:5:0,
+                 from gpukv_bfs.cu:8:
+../../../include/gardenia/common.h:59:0: warning: "NUM_WARPS" redefined
+ #define NUM_WARPS (BLOCK_SIZE / WARP_SIZE)
+ 
+In file included from ../../../include/gpukv/fs_calls.cu.h:24:0,
+                 from gpukv_bfs.cu:1:
+../../../include/gpukv/util.cu.h:63:0: note: this is the location of the previous definition
+ #define NUM_WARPS ((blockDim.x * blockDim.y * blockDim.z) >> 5)
+ 
+../../../include/gpukv/host_loop.h(145): warning: variable "temp_time" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(261): warning: variable "temp_time" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(420): warning: variable "i" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(424): warning: variable "temp_time" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(445): warning: variable "previous_f" was set but never used
+
+../../../include/gpukv/host_loop.h(570): warning: variable "i" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(574): warning: variable "temp_time" was declared but never referenced
+
+../../../include/gpukv/host_loop.h(766): warning: variable "num" was set but never used
+
+gpukv_bfs.cu(128): warning: conversion from a string literal to "char *" is deprecated
+
+gpukv_bfs.cu(132): warning: variable "user_put" is used before its value is set
+
+gpukv_bfs.cu(133): warning: variable "cuda_put" is used before its value is set
+
+gpukv_bfs.cu(218): warning: conversion from a string literal to "char *" is deprecated
+
+gpukv_bfs.cu(27): warning: variable "request_num" was set but never used
+
+gpukv_bfs.cu(27): warning: variable "request_mode" was set but never used
+
+gpukv_bfs.cu(122): warning: variable "start_off" was declared but never referenced
+
+gpukv_bfs.cu(148): warning: variable "nitems" was declared but never referenced
+
+gpukv_bfs.cu(149): warning: variable "nblocks" was declared but never referenced
+
+gpukv_bfs.cu(153): warning: variable "one" was declared but never referenced
+
+In file included from bfs.cu.h:5:0,
+                 from gpukv_bfs.cu:8:
+../../../include/gardenia/common.h:59:0: warning: "NUM_WARPS" redefined
+ #define NUM_WARPS (BLOCK_SIZE / WARP_SIZE)
+ 
+In file included from ../../../include/gpukv/fs_calls.cu.h:24:0,
+                 from gpukv_bfs.cu:1:
+../../../include/gpukv/util.cu.h:63:0: note: this is the location of the previous definition
+ #define NUM_WARPS ((blockDim.x * blockDim.y * blockDim.z) >> 5)
+ 
+gpukv_bfs.cu(128): warning: conversion from a string literal to "char *" is deprecated
+
+gpukv_bfs.cu(132): warning: variable "user_put" is used before its value is set
+
+gpukv_bfs.cu(133): warning: variable "cuda_put" is used before its value is set
+
+gpukv_bfs.cu(218): warning: conversion from a string literal to "char *" is deprecated
+
+../../../include/gardenia/cutil_subset.h: In function ‘unsigned int CudaTest(const char*)’:
+../../../include/gardenia/cutil_subset.h:30:23: warning: ‘cudaError_t cudaThreadSynchronize()’ is deprecated [-Wdeprecated-declarations]
+  cudaThreadSynchronize();
+                       ^
+/usr/local/cuda/include/cuda_runtime_api.h:955:46: note: declared here
+ extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+                                              ^~~~~~~~~~~~~~~~~~~~~
+gpukv.o: In function `cusparseGetErrorString(cusparseStatus_t)':
+/home/asknor/atc/kv_gpufs/io_test/graph_workload/bfs/../../../include/gardenia/cutil_subset.h:85: multiple definition of `cusparseGetErrorString(cusparseStatus_t)'
+bfs.o:/home/asknor/atc/kv_gpufs/io_test/graph_workload/bfs/../../../include/gardenia/cutil_subset.h:85: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [bfs_gpukv] Error 1

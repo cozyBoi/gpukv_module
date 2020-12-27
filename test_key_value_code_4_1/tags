@@ -1,0 +1,808 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_ONCE	kernel_code/module/key_module.c	73;"	d	file:
+ADMIN_TIMEOUT	kernel_code/nvme-core.c	50;"	d	file:
+ASSERT	copybw.cpp	59;"	d	file:
+ASSERT	validate.cpp	56;"	d	file:
+ASSERTDRV	copybw.cpp	69;"	d	file:
+ASSERTDRV	validate.cpp	66;"	d	file:
+ASSERTRT	copybw.cpp	76;"	d	file:
+ASSERTRT	validate.cpp	73;"	d	file:
+ASSERT_EQ	copybw.cpp	83;"	d	file:
+ASSERT_EQ	validate.cpp	80;"	d	file:
+ASSERT_NEQ	copybw.cpp	85;"	d	file:
+ASSERT_NEQ	validate.cpp	82;"	d	file:
+BEGIN_CHECK	copybw.cpp	87;"	d	file:
+BEGIN_CHECK	validate.cpp	84;"	d	file:
+BREAK_IF_NEQ	copybw.cpp	86;"	d	file:
+BREAK_IF_NEQ	validate.cpp	83;"	d	file:
+CFLAGS_REMOVE_cgroup-debug.o	kernel_code/Makefile	/^CFLAGS_REMOVE_cgroup-debug.o = $(CC_FLAGS_FTRACE)$/;"	m
+CFLAGS_REMOVE_irq_work.o	kernel_code/Makefile	/^CFLAGS_REMOVE_irq_work.o = $(CC_FLAGS_FTRACE)$/;"	m
+CFLAGS_sys_ni.o	kernel_code/Makefile	/^CFLAGS_sys_ni.o = $(DISABLE_LTO)$/;"	m
+CHECK_EQ	copybw.cpp	84;"	d	file:
+CHECK_EQ	validate.cpp	81;"	d	file:
+CMD_CTX_BASE	kernel_code/nvme-core.c	265;"	d	file:
+CMD_CTX_CANCELLED	kernel_code/nvme-core.c	266;"	d	file:
+CMD_CTX_COMPLETED	kernel_code/nvme-core.c	267;"	d	file:
+CMD_CTX_INVALID	kernel_code/nvme-core.c	268;"	d	file:
+COMMONFLAGS	Makefile	/^COMMONFLAGS := -O2$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS := $(CUDA_INC) -I $(PWD)\/kernel_code\/module\/$/;"	m
+CQ_SIZE	kernel_code/nvme-core.c	49;"	d	file:
+CUDA	Makefile	/^CUDA=\/usr\/local\/cuda-10.0$/;"	m
+CUDA_LIB	Makefile	/^CUDA_LIB := -L $(CUDA)\/lib64 -L $(CUDA)\/lib -L \/usr\/lib64\/nvidia -L \/usr\/lib\/nvidia$/;"	m
+D	copybw.cpp	55;"	d	file:
+D	validate.cpp	52;"	d	file:
+END_CHECK	copybw.cpp	88;"	d	file:
+END_CHECK	validate.cpp	85;"	d	file:
+EXES	Makefile	/^EXES := $(SRCS:.cpp=)$/;"	m
+F_NAME	copybw.cpp	54;"	d	file:
+F_NAME	validate.cpp	51;"	d	file:
+GPU_BOUND_MASK	kernel_code/module/key_module.c	56;"	d	file:
+GPU_BOUND_OFFSET	kernel_code/module/key_module.c	55;"	d	file:
+GPU_BOUND_SHIFT	kernel_code/module/key_module.c	53;"	d	file:
+GPU_BOUND_SIZE	kernel_code/module/key_module.c	54;"	d	file:
+GPU_PAGE_MASK	copybw.cpp	52;"	d	file:
+GPU_PAGE_MASK	validate.cpp	49;"	d	file:
+GPU_PAGE_OFFSET	copybw.cpp	51;"	d	file:
+GPU_PAGE_OFFSET	validate.cpp	48;"	d	file:
+GPU_PAGE_SHIFT	copybw.cpp	49;"	d	file:
+GPU_PAGE_SHIFT	validate.cpp	46;"	d	file:
+GPU_PAGE_SIZE	copybw.cpp	50;"	d	file:
+GPU_PAGE_SIZE	validate.cpp	47;"	d	file:
+ID_MASK	kernel_code/module/key_module.c	58;"	d	file:
+I_KEY_P2P_GET	kernel_code/module/key-p2p.h	32;"	d
+I_KEY_P2P_GET_PARAM	kernel_code/module/key-p2p.h	/^struct I_KEY_P2P_GET_PARAM{$/;"	s
+I_KEY_P2P_PARAM	kernel_code/module/key-p2p.h	/^struct I_KEY_P2P_PARAM{$/;"	s
+I_KEY_P2P_PUT	kernel_code/module/key-p2p.h	33;"	d
+I_KEY_PIN_BUF	kernel_code/module/key-p2p.h	30;"	d
+I_KEY_PIN_PARAM	kernel_code/module/key-p2p.h	/^struct I_KEY_PIN_PARAM{$/;"	s
+I_KEY_UNPIN_BUF	kernel_code/module/key-p2p.h	31;"	d
+I_KEY_UNPIN_PARAM	kernel_code/module/key-p2p.h	/^struct I_KEY_UNPIN_PARAM{$/;"	s
+KBUILD_EXTRA_SYMBOLS	kernel_code/module/Makefile	/^KBUILD_EXTRA_SYMBOLS := \/usr\/src\/nvidia-410.48\/Module.symvers$/;"	m
+KC_NODE	kernel_code/module/key_module.c	/^}KC_NODE;$/;"	t	typeref:struct:_key_cache_node	file:
+KDIR	kernel_code/module/Makefile	/^KDIR := \/usr\/src\/linux-4.1.52\/ $/;"	m
+KEY_DEFAULT_BUF	kernel_code/test_program/key_api.h	13;"	d
+KEY_GET	kernel_code/module/key_module.c	44;"	d	file:
+KEY_IOCTL	kernel_code/module/key-p2p.h	5;"	d
+KEY_OPERATIONS	kernel_code/key_value.c	/^}KEY_OPERATIONS;$/;"	t	typeref:struct:key_value_operations	file:
+KEY_OPERATIONS	kernel_code/module/key_module.c	/^}KEY_OPERATIONS;$/;"	t	typeref:struct:key_value_operations	file:
+KEY_OPERATIONS	kernel_code/nvme-core.c	/^}KEY_OPERATIONS;$/;"	t	typeref:struct:key_value_operations	file:
+KEY_PAGE_SIZE	kernel_code/test_program/key_api.h	12;"	d
+KEY_PUT	kernel_code/module/key_module.c	45;"	d	file:
+KEY_VALUE_API	kernel_code/test_program/key_api.h	2;"	d
+Key_map_p2p_pages	kernel_code/module/key_module.c	/^long Key_map_p2p_pages(unsigned long _iod,unsigned long _dev, unsigned long _off,unsigned length){$/;"	f
+Key_op	kernel_code/key_value.c	/^EXPORT_SYMBOL_GPL(Key_op);$/;"	v
+Key_op	kernel_code/key_value.c	/^KEY_OPERATIONS* Key_op=NULL;$/;"	v
+Key_value_close	kernel_code/module/key_module.c	/^long Key_value_close(const char __user* filename){ $/;"	f
+Key_value_get	kernel_code/module/key_module.c	/^long Key_value_get(unsigned long key, const char __user *buf, size_t length){$/;"	f
+Key_value_module	kernel_code/key_value.c	/^EXPORT_SYMBOL_GPL(Key_value_module);$/;"	v
+Key_value_module	kernel_code/key_value.c	/^int Key_value_module=0;$/;"	v
+Key_value_open	kernel_code/module/key_module.c	/^long Key_value_open(const char __user* filename){$/;"	f
+Key_value_put	kernel_code/module/key_module.c	/^long Key_value_put(unsigned long key, const char __user *buf, size_t length){$/;"	f
+LBA_SHIFT	kernel_code/module/key_module.c	41;"	d	file:
+LBA_SIZE	copybw.cpp	136;"	d	file:
+LBA_SIZE	validate.cpp	126;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS := $(CUDA_LIB) -L $(CUDA)\/lib64$/;"	m
+LIBS	Makefile	/^LIBS     := -lcudart -lcuda -lpthread -ldl$/;"	m
+MASK_DU	kernel_code/module/key_module.c	38;"	d	file:
+MAX	kernel_code/module/key_module.c	71;"	d	file:
+MAX_FILENAME	kernel_code/key_value.c	11;"	d	file:
+MAX_FILENAME	kernel_code/module/key_module.c	39;"	d	file:
+MAX_NUM	kernel_code/module/key_module.c	42;"	d	file:
+MIN	kernel_code/module/key_module.c	70;"	d	file:
+MYCLOCK	copybw.cpp	96;"	d	file:
+NAME	kernel_code/module/key_module.c	36;"	d	file:
+NAME_CLASS	kernel_code/module/key_module.c	37;"	d	file:
+NVIDIA_SRC_DIR	kernel_code/module/Makefile	/^NVIDIA_SRC_DIR=\/usr\/src\/nvidia-410.48\/nvidia$/;"	m
+NVME_AQ_DEPTH	kernel_code/nvme-core.c	47;"	d	file:
+NVME_CAP_MPSMAX	kernel_code/nvme.h	44;"	d
+NVME_CAP_MPSMIN	kernel_code/nvme.h	43;"	d
+NVME_CAP_MQES	kernel_code/nvme.h	40;"	d
+NVME_CAP_STRIDE	kernel_code/nvme.h	42;"	d
+NVME_CAP_TIMEOUT	kernel_code/nvme.h	41;"	d
+NVME_CC_ARB_RR	kernel_code/nvme.h	/^	NVME_CC_ARB_RR		= 0 << 11,$/;"	e	enum:__anon1
+NVME_CC_ARB_VS	kernel_code/nvme.h	/^	NVME_CC_ARB_VS		= 7 << 11,$/;"	e	enum:__anon1
+NVME_CC_ARB_WRRU	kernel_code/nvme.h	/^	NVME_CC_ARB_WRRU	= 1 << 11,$/;"	e	enum:__anon1
+NVME_CC_CSS_NVM	kernel_code/nvme.h	/^	NVME_CC_CSS_NVM		= 0 << 4,$/;"	e	enum:__anon1
+NVME_CC_ENABLE	kernel_code/nvme.h	/^	NVME_CC_ENABLE		= 1 << 0,$/;"	e	enum:__anon1
+NVME_CC_IOCQES	kernel_code/nvme.h	/^	NVME_CC_IOCQES		= 4 << 20,$/;"	e	enum:__anon1
+NVME_CC_IOSQES	kernel_code/nvme.h	/^	NVME_CC_IOSQES		= 6 << 16,$/;"	e	enum:__anon1
+NVME_CC_MPS_SHIFT	kernel_code/nvme.h	/^	NVME_CC_MPS_SHIFT	= 7,$/;"	e	enum:__anon1
+NVME_CC_SHN_ABRUPT	kernel_code/nvme.h	/^	NVME_CC_SHN_ABRUPT	= 2 << 14,$/;"	e	enum:__anon1
+NVME_CC_SHN_MASK	kernel_code/nvme.h	/^	NVME_CC_SHN_MASK	= 3 << 14,$/;"	e	enum:__anon1
+NVME_CC_SHN_NONE	kernel_code/nvme.h	/^	NVME_CC_SHN_NONE	= 0 << 14,$/;"	e	enum:__anon1
+NVME_CC_SHN_NORMAL	kernel_code/nvme.h	/^	NVME_CC_SHN_NORMAL	= 1 << 14,$/;"	e	enum:__anon1
+NVME_CSTS_CFS	kernel_code/nvme.h	/^	NVME_CSTS_CFS		= 1 << 1,$/;"	e	enum:__anon1
+NVME_CSTS_RDY	kernel_code/nvme.h	/^	NVME_CSTS_RDY		= 1 << 0,$/;"	e	enum:__anon1
+NVME_CSTS_SHST_CMPLT	kernel_code/nvme.h	/^	NVME_CSTS_SHST_CMPLT	= 2 << 2,$/;"	e	enum:__anon1
+NVME_CSTS_SHST_MASK	kernel_code/nvme.h	/^	NVME_CSTS_SHST_MASK	= 3 << 2,$/;"	e	enum:__anon1
+NVME_CSTS_SHST_NORMAL	kernel_code/nvme.h	/^	NVME_CSTS_SHST_NORMAL	= 0 << 2,$/;"	e	enum:__anon1
+NVME_CSTS_SHST_OCCUR	kernel_code/nvme.h	/^	NVME_CSTS_SHST_OCCUR	= 1 << 2,$/;"	e	enum:__anon1
+NVME_INT_BYTES	kernel_code/nvme-core.c	154;"	d	file:
+NVME_INT_MASK	kernel_code/nvme-core.c	155;"	d	file:
+NVME_INT_PAGES	kernel_code/nvme-core.c	153;"	d	file:
+NVME_IO_TIMEOUT	kernel_code/nvme.h	68;"	d
+NVME_MINORS	kernel_code/core.c	35;"	d	file:
+NVME_MINORS	kernel_code/nvme-core.c	45;"	d	file:
+NVME_Q_DEPTH	kernel_code/nvme-core.c	46;"	d	file:
+OUT	copybw.cpp	91;"	d	file:
+P2P_GET	kernel_code/module/key_module.c	46;"	d	file:
+P2P_PUT	kernel_code/module/key_module.c	47;"	d	file:
+P2P_READ	kernel_code/module/key_module.c	49;"	d	file:
+P2P_WRITE	kernel_code/module/key_module.c	50;"	d	file:
+PCI_CLASS_STORAGE_EXPRESS	kernel_code/nvme-core.c	3204;"	d	file:
+PREFIX	Makefile	/^PREFIX=$(PWD)$/;"	m
+PWD	kernel_code/module/Makefile	/^PWD := $(shell pwd)$/;"	m
+SHUTDOWN_TIMEOUT	kernel_code/nvme-core.c	51;"	d	file:
+SIZE	kernel_code/test_program/example.c	4;"	d	file:
+SQ_SIZE	kernel_code/nvme-core.c	48;"	d	file:
+SRCS	Makefile	/^SRCS := validate.cpp copybw.cpp$/;"	m
+SUBSYS_ATTR_RO	kernel_code/core.c	2108;"	d	file:
+SYSCALL_DEFINE0	kernel_code/syscalls.h	178;"	d
+SYSCALL_DEFINE1	kernel_code/key_value.c	/^SYSCALL_DEFINE1(key_close,const char __user *, filename){$/;"	f
+SYSCALL_DEFINE1	kernel_code/key_value.c	/^SYSCALL_DEFINE1(key_open,const char __user *, filename){$/;"	f
+SYSCALL_DEFINE1	kernel_code/syscalls.h	182;"	d
+SYSCALL_DEFINE2	kernel_code/syscalls.h	183;"	d
+SYSCALL_DEFINE3	kernel_code/key_value.c	/^SYSCALL_DEFINE3(key_get,unsigned long, key, const char __user *, buf, size_t, length){$/;"	f
+SYSCALL_DEFINE3	kernel_code/key_value.c	/^SYSCALL_DEFINE3(key_put,unsigned long, key, const char __user *, buf, size_t, length){$/;"	f
+SYSCALL_DEFINE3	kernel_code/syscalls.h	184;"	d
+SYSCALL_DEFINE4	kernel_code/syscalls.h	185;"	d
+SYSCALL_DEFINE5	kernel_code/syscalls.h	186;"	d
+SYSCALL_DEFINE6	kernel_code/syscalls.h	187;"	d
+SYSCALL_DEFINEx	kernel_code/syscalls.h	189;"	d
+SYSCALL_METADATA	kernel_code/syscalls.h	151;"	d
+SYSCALL_METADATA	kernel_code/syscalls.h	175;"	d
+SYSCALL_TRACE_ENTER_EVENT	kernel_code/syscalls.h	119;"	d
+SYSCALL_TRACE_EXIT_EVENT	kernel_code/syscalls.h	135;"	d
+X509_CERTIFICATES	kernel_code/Makefile	/^X509_CERTIFICATES := $(subst $(realpath $(objtree))\/,,$(X509_CERTIFICATES-raw))$/;"	m
+X509_CERTIFICATES-raw	kernel_code/Makefile	/^X509_CERTIFICATES-raw := $(sort $(foreach CERT,$(X509_CERTIFICATES-y), \\$/;"	m
+X509_CERTIFICATES-y	kernel_code/Makefile	/^X509_CERTIFICATES-y := $(wildcard *.x509) $(wildcard $(srctree)\/*.x509)$/;"	m
+_LINUX_NVME_H	kernel_code/nvme.h	16;"	d
+_LINUX_SYSCALLS_H	kernel_code/syscalls.h	12;"	d
+__KEY_P2P_H	kernel_code/module/key-p2p.h	2;"	d
+__MAP	kernel_code/syscalls.h	99;"	d
+__MAP0	kernel_code/syscalls.h	92;"	d
+__MAP1	kernel_code/syscalls.h	93;"	d
+__MAP2	kernel_code/syscalls.h	94;"	d
+__MAP3	kernel_code/syscalls.h	95;"	d
+__MAP4	kernel_code/syscalls.h	96;"	d
+__MAP5	kernel_code/syscalls.h	97;"	d
+__MAP6	kernel_code/syscalls.h	98;"	d
+__PROTECT	kernel_code/syscalls.h	193;"	d
+__SC_ARGS	kernel_code/syscalls.h	107;"	d
+__SC_CAST	kernel_code/syscalls.h	106;"	d
+__SC_DECL	kernel_code/syscalls.h	101;"	d
+__SC_LONG	kernel_code/syscalls.h	105;"	d
+__SC_STR_ADECL	kernel_code/syscalls.h	111;"	d
+__SC_STR_TDECL	kernel_code/syscalls.h	112;"	d
+__SC_TEST	kernel_code/syscalls.h	108;"	d
+__SYSCALL_DEFINEx	kernel_code/syscalls.h	194;"	d
+__TYPE_IS_L	kernel_code/syscalls.h	102;"	d
+__TYPE_IS_LL	kernel_code/syscalls.h	104;"	d
+__TYPE_IS_UL	kernel_code/syscalls.h	103;"	d
+__key_close	kernel_code/test_program/key_api.h	8;"	d
+__key_get	kernel_code/test_program/key_api.h	9;"	d
+__key_open	kernel_code/test_program/key_api.h	7;"	d
+__key_put	kernel_code/test_program/key_api.h	10;"	d
+__nvme_alloc_iod	kernel_code/nvme-core.c	/^EXPORT_SYMBOL_GPL(__nvme_alloc_iod);$/;"	v
+__nvme_alloc_iod	kernel_code/nvme-core.c	/^__nvme_alloc_iod(unsigned nseg, unsigned bytes, struct nvme_dev *dev,$/;"	f
+__nvme_check_ids	kernel_code/core.c	/^static int __nvme_check_ids(struct nvme_subsystem *subsys,$/;"	f	file:
+__nvme_find_get_subsystem	kernel_code/core.c	/^static struct nvme_subsystem *__nvme_find_get_subsystem(const char *subsysnqn)$/;"	f	file:
+__nvme_find_ns_head	kernel_code/core.c	/^static struct nvme_ns_head *__nvme_find_ns_head(struct nvme_subsystem *subsys,$/;"	f	file:
+__nvme_release_subsystem	kernel_code/core.c	/^static void __nvme_release_subsystem(struct nvme_subsystem *subsys)$/;"	f	file:
+__nvme_revalidate_disk	kernel_code/core.c	/^static void __nvme_revalidate_disk(struct gendisk *disk, struct nvme_id_ns *id)$/;"	f	file:
+__nvme_submit_admin_cmd	kernel_code/nvme-core.c	/^static int __nvme_submit_admin_cmd(struct nvme_dev *dev, struct nvme_command *cmd,$/;"	f	file:
+__nvme_submit_cmd	kernel_code/nvme-core.c	/^static int __nvme_submit_cmd(struct nvme_queue *nvmeq, struct nvme_command *cmd)$/;"	f	file:
+__nvme_submit_sync_cmd	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(__nvme_submit_sync_cmd);$/;"	v
+__nvme_submit_sync_cmd	kernel_code/core.c	/^int __nvme_submit_sync_cmd(struct request_queue *q, struct nvme_command *cmd,$/;"	f
+__this_module	kernel_code/module/key_module.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	kernel_code/module/key_module.mod.c	/^__used$/;"	v	file:
+_key_cache_node	kernel_code/module/key_module.c	/^typedef struct _key_cache_node{$/;"	s	file:
+_key_page_table	kernel_code/module/key_module.c	/^typedef struct _key_page_table{$/;"	s	file:
+_nvme_check_size	kernel_code/nvme-core.c	/^static inline void _nvme_check_size(void)$/;"	f	file:
+abort_completion	kernel_code/nvme-core.c	/^static void abort_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+abort_limit	kernel_code/nvme.h	/^	u16 abort_limit;$/;"	m	struct:nvme_dev
+aborted	kernel_code/nvme-core.c	/^	int aborted;$/;"	m	struct:nvme_cmd_info	file:
+acq	kernel_code/nvme.h	/^	__u64			acq;	\/* Admin CQ Base Address *\/$/;"	m	struct:nvme_bar
+adapter_alloc_cq	kernel_code/nvme-core.c	/^static int adapter_alloc_cq(struct nvme_dev *dev, u16 qid,$/;"	f	file:
+adapter_alloc_sq	kernel_code/nvme-core.c	/^static int adapter_alloc_sq(struct nvme_dev *dev, u16 qid,$/;"	f	file:
+adapter_async_del_queue	kernel_code/nvme-core.c	/^static int adapter_async_del_queue(struct nvme_queue *nvmeq, u8 opcode,$/;"	f	file:
+adapter_delete_cq	kernel_code/nvme-core.c	/^static int adapter_delete_cq(struct nvme_dev *dev, u16 cqid)$/;"	f	file:
+adapter_delete_queue	kernel_code/nvme-core.c	/^static int adapter_delete_queue(struct nvme_dev *dev, u8 opcode, u16 id)$/;"	f	file:
+adapter_delete_sq	kernel_code/nvme-core.c	/^static int adapter_delete_sq(struct nvme_dev *dev, u16 sqid)$/;"	f	file:
+addr	kernel_code/module/key-p2p.h	/^	__u64 addr;$/;"	m	struct:I_KEY_PIN_PARAM
+admin_q	kernel_code/nvme.h	/^	struct request_queue *admin_q;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::request_queue
+admin_tagset	kernel_code/nvme.h	/^	struct blk_mq_tag_set admin_tagset;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::blk_mq_tag_set
+admin_timeout	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(admin_timeout);$/;"	v
+admin_timeout	kernel_code/core.c	/^unsigned int admin_timeout = 60;$/;"	v
+admin_timeout	kernel_code/nvme-core.c	/^static unsigned char admin_timeout = 60;$/;"	v	file:
+aqa	kernel_code/nvme.h	/^	__u32			aqa;	\/* Admin Queue Attributes *\/$/;"	m	struct:nvme_bar
+arr_buf	kernel_code/module/key_module.c	/^		char **arr_buf;$/;"	m	union:_key_cache_node::__anon2	file:
+asq	kernel_code/nvme.h	/^	__u64			asq;	\/* Admin SQ Base Address *\/$/;"	m	struct:nvme_bar
+async_cmd_info	kernel_code/nvme-core.c	/^struct async_cmd_info {$/;"	s	file:
+async_completion	kernel_code/nvme-core.c	/^static void async_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+async_req_completion	kernel_code/nvme-core.c	/^static void async_req_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+bar	kernel_code/nvme.h	/^	struct nvme_bar __iomem *bar;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::__iomem
+bar_addr	kernel_code/module/key-p2p.h	/^	__u64 bar_addr;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+bar_addr	kernel_code/module/key-p2p.h	/^	__u64 bar_addr;$/;"	m	struct:I_KEY_P2P_PARAM
+break_cache	kernel_code/module/key_module.c	/^int break_cache(KC_NODE* k_node){$/;"	f
+buf	kernel_code/module/key_module.c	/^		char *buf[MAX_NUM];$/;"	m	union:_key_cache_node::__anon2	file:
+cache_copy	kernel_code/module/key_module.c	/^int cache_copy(KC_NODE* k_node,const char __user *buf,size_t length){$/;"	f
+call_flag	kernel_code/module/key_module.c	/^	int call_flag;$/;"	m	struct:_key_page_table	file:
+cancel_cmd_info	kernel_code/nvme-core.c	/^static void *cancel_cmd_info(struct nvme_cmd_info *cmd, nvme_completion_fn *fn)$/;"	f	file:
+cap	kernel_code/nvme.h	/^	__u64			cap;	\/* Controller Capabilities *\/$/;"	m	struct:nvme_bar
+cc	kernel_code/nvme.h	/^	__u32			cc;	\/* Controller Configuration *\/$/;"	m	struct:nvme_bar
+clean-files	kernel_code/Makefile	/^clean-files := x509_certificate_list .x509.list$/;"	m
+close	kernel_code/key_value.c	/^	long (*close) (const char __user*);$/;"	m	struct:key_value_operations	file:
+close	kernel_code/module/key_module.c	/^    long (*close) (const char __user*);$/;"	m	struct:key_value_operations	file:
+close	kernel_code/nvme-core.c	/^	long (*close) (const char __user*);$/;"	m	struct:key_value_operations	file:
+cmd_x509certs	kernel_code/Makefile	/^      cmd_x509certs  = cat $(X509_CERTIFICATES) \/dev\/null >$@ $(foreach X509,$(X509_CERTIFICATES),; $(kecho) "  - Including cert $(X509)")$/;"	m
+cmdinfo	kernel_code/nvme-core.c	/^	struct async_cmd_info cmdinfo;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::async_cmd_info	file:
+cntlid	kernel_code/core.c	/^nvme_show_int_function(cntlid);$/;"	v
+compare_buf	copybw.cpp	/^static void compare_buf(uint32_t *ref_buf, uint32_t *buf, size_t size)$/;"	f	file:
+compare_buf	validate.cpp	/^static void compare_buf(uint32_t *ref_buf, uint32_t *buf, size_t size)$/;"	f	file:
+core_quirks	kernel_code/core.c	/^static const struct nvme_core_quirk_entry core_quirks[] = {$/;"	v	typeref:struct:nvme_core_quirk_entry	file:
+cq_dma_addr	kernel_code/nvme-core.c	/^	dma_addr_t cq_dma_addr;$/;"	m	struct:nvme_queue	file:
+cq_head	kernel_code/nvme-core.c	/^	u16 cq_head;$/;"	m	struct:nvme_queue	file:
+cq_phase	kernel_code/nvme-core.c	/^	u8 cq_phase;$/;"	m	struct:nvme_queue	file:
+cq_vector	kernel_code/nvme-core.c	/^	s16 cq_vector;$/;"	m	struct:nvme_queue	file:
+cqe_seen	kernel_code/nvme-core.c	/^	u8 cqe_seen;$/;"	m	struct:nvme_queue	file:
+cqes	kernel_code/nvme-core.c	/^	volatile struct nvme_completion *cqes;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::nvme_completion	file:
+csts	kernel_code/nvme.h	/^	__u32			csts;	\/* Controller Status *\/$/;"	m	struct:nvme_bar
+ctrl_config	kernel_code/nvme.h	/^	u32 ctrl_config;$/;"	m	struct:nvme_dev
+ctx	kernel_code/nvme-core.c	/^	void *ctx;$/;"	m	struct:async_cmd_info	file:
+ctx	kernel_code/nvme-core.c	/^	void *ctx;$/;"	m	struct:nvme_cmd_info	file:
+data_offset	kernel_code/module/key-p2p.h	/^	__u64 data_offset;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+data_offset	kernel_code/module/key-p2p.h	/^	__u64 data_offset;$/;"	m	struct:I_KEY_P2P_PARAM
+db_bar_size	kernel_code/nvme-core.c	/^static size_t db_bar_size(struct nvme_dev *dev, unsigned nr_io_queues)$/;"	f	file:
+db_stride	kernel_code/nvme.h	/^	u32 db_stride;$/;"	m	struct:nvme_dev
+dbs	kernel_code/nvme.h	/^	u32 __iomem *dbs;$/;"	m	struct:nvme_dev
+dclass	kernel_code/module/key_module.c	/^static struct class* dclass=NULL;$/;"	v	typeref:struct:class	file:
+default_ps_max_latency_us	kernel_code/core.c	/^static unsigned long default_ps_max_latency_us = 100000;$/;"	v	file:
+dev	kernel_code/nvme-core.c	/^	struct nvme_dev *dev;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::nvme_dev	file:
+dev	kernel_code/nvme.h	/^	struct nvme_dev *dev;$/;"	m	struct:nvme_ns	typeref:struct:nvme_ns::nvme_dev
+dev_to_ns_head	kernel_code/core.c	/^static inline struct nvme_ns_head *dev_to_ns_head(struct device *dev)$/;"	f	file:
+device	kernel_code/module/key_module.c	/^static struct device *device=NULL;$/;"	v	typeref:struct:device	file:
+device	kernel_code/nvme.h	/^	struct device *device;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::device
+disk	kernel_code/nvme.h	/^	struct gendisk *disk;$/;"	m	struct:nvme_ns	typeref:struct:nvme_ns::gendisk
+entry	kernel_code/nvme.h	/^	struct msix_entry *entry;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::msix_entry
+eui_show	kernel_code/core.c	/^static ssize_t eui_show(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+event_limit	kernel_code/nvme.h	/^	u8 event_limit;$/;"	m	struct:nvme_dev
+ext	kernel_code/nvme.h	/^	bool ext;$/;"	m	struct:nvme_ns
+filechk_ikconfiggz	kernel_code/Makefile	/^      filechk_ikconfiggz = (echo "static const char kernel_config_data[] __used = MAGIC_START"; cat $< | scripts\/basic\/bin2c; echo "MAGIC_END;")$/;"	m
+firmware_rev	kernel_code/core.c	/^nvme_show_str_function(firmware_rev);$/;"	v
+firmware_rev	kernel_code/core.c	/^nvme_subsys_show_str_function(firmware_rev);$/;"	v
+firmware_rev	kernel_code/nvme.h	/^	char firmware_rev[8];$/;"	m	struct:nvme_dev
+first_dma	kernel_code/nvme.h	/^	dma_addr_t first_dma;$/;"	m	struct:nvme_iod
+fn	kernel_code/nvme-core.c	/^	nvme_completion_fn fn;$/;"	m	struct:nvme_cmd_info	file:
+force_apst	kernel_code/core.c	/^static bool force_apst;$/;"	v	file:
+fr	kernel_code/core.c	/^	const char *fr;$/;"	m	struct:nvme_core_quirk_entry	file:
+get	kernel_code/key_value.c	/^    long (*get) (unsigned long key, const char __user *, size_t );$/;"	m	struct:key_value_operations	file:
+get	kernel_code/module/key_module.c	/^    long (*get) (unsigned long key, const char __user *, size_t );$/;"	m	struct:key_value_operations	file:
+get	kernel_code/nvme-core.c	/^    long (*get) (unsigned long key, const char __user *, size_t );$/;"	m	struct:key_value_operations	file:
+get_cache	kernel_code/module/key_module.c	/^KC_NODE* get_cache(unsigned long key,unsigned int length,const char __user *buf,char mode){$/;"	f
+get_cmd_from_tag	kernel_code/nvme-core.c	/^static inline struct nvme_cmd_info *get_cmd_from_tag(struct nvme_queue *nvmeq,$/;"	f	file:
+get_p2p_free_callback	kernel_code/module/key_module.c	/^void get_p2p_free_callback(void *data){$/;"	f
+get_tsc_khz	kernel_code/module/key_module.c	64;"	d	file:
+get_tsc_khz	kernel_code/module/key_module.c	66;"	d	file:
+hctx	kernel_code/nvme-core.c	/^	struct blk_mq_hw_ctx *hctx;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::blk_mq_hw_ctx	file:
+id	kernel_code/module/key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+id	kernel_code/module/key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_P2P_PARAM
+id	kernel_code/module/key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_PIN_PARAM
+id	kernel_code/module/key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_UNPIN_PARAM
+id	kernel_code/module/key_module.c	/^	u32 id;$/;"	m	struct:_key_page_table	file:
+init_hbuf_linear_ramp	copybw.cpp	/^static void init_hbuf_linear_ramp(uint32_t *h_buf, size_t size)$/;"	f	file:
+init_hbuf_linear_ramp	validate.cpp	/^static void init_hbuf_linear_ramp(uint32_t *h_buf, size_t size)$/;"	f	file:
+init_hbuf_walking_bit	copybw.cpp	/^static void init_hbuf_walking_bit(uint32_t *h_buf, size_t size)$/;"	f	file:
+init_hbuf_walking_bit	validate.cpp	/^static void init_hbuf_walking_bit(uint32_t *h_buf, size_t size)$/;"	f	file:
+instance	kernel_code/nvme.h	/^	int instance;$/;"	m	struct:nvme_dev
+inter_fops	kernel_code/module/key_module.c	/^static struct file_operations inter_fops=$/;"	v	typeref:struct:file_operations	file:
+inter_ioctl	kernel_code/module/key_module.c	/^static int inter_ioctl(struct inode *inode,unsigned int cmd, unsigned long arg){  \/\/unlocked_ioctl은 3 parameter!!!!!!,옛날엔 4개$/;"	f	file:
+inter_major	kernel_code/module/key_module.c	/^static int inter_major=0;\/\/, inter_minor=0;$/;"	v	file:
+inter_open	kernel_code/module/key_module.c	/^static int inter_open(struct inode *minode, struct file *mfile){$/;"	f	file:
+inter_release	kernel_code/module/key_module.c	/^static int inter_release(struct inode *minode, struct file *mfile){$/;"	f	file:
+intmc	kernel_code/nvme.h	/^	__u32			intmc;	\/* Interrupt Mask Clear *\/$/;"	m	struct:nvme_bar
+intms	kernel_code/nvme.h	/^	__u32			intms;	\/* Interrupt Mask Set *\/$/;"	m	struct:nvme_bar
+iod	kernel_code/nvme-core.c	/^	struct nvme_iod iod[0];$/;"	m	struct:nvme_cmd_info	typeref:struct:nvme_cmd_info::nvme_iod	file:
+iod_get_private	kernel_code/nvme-core.c	/^static void *iod_get_private(struct nvme_iod *iod)$/;"	f	file:
+iod_init	kernel_code/nvme-core.c	/^static inline void iod_init(struct nvme_iod *iod, unsigned nbytes,$/;"	f	file:
+iod_list	kernel_code/nvme-core.c	/^static __le64 **iod_list(struct nvme_iod *iod)$/;"	f	file:
+iod_should_kfree	kernel_code/nvme-core.c	/^static bool iod_should_kfree(struct nvme_iod *iod)$/;"	f	file:
+irqname	kernel_code/nvme-core.c	/^	char irqname[24];	\/* nvme4294967295-65535\\0 *\/$/;"	m	struct:nvme_queue	file:
+key	kernel_code/module/key_module.c	/^	unsigned long key;$/;"	m	struct:_key_cache_node	file:
+key_close	kernel_code/test_program/key_api.h	/^int key_close(char *buf){$/;"	f
+key_cmd_limit	kernel_code/module/key_module.c	/^static unsigned int key_cmd_limit;$/;"	v	file:
+key_get	kernel_code/test_program/key_api.h	/^int key_get(unsigned long key, char** buf){$/;"	f
+key_open	kernel_code/test_program/key_api.h	/^int key_open(char *buf){$/;"	f
+key_ops	kernel_code/module/key_module.c	/^static KEY_OPERATIONS key_ops=$/;"	v	file:
+key_p2p_op	kernel_code/module/key_module.c	/^int key_p2p_op(int mode, void __user *_param){$/;"	f
+key_page_table	kernel_code/module/key_module.c	/^}key_page_table;$/;"	t	typeref:struct:_key_page_table	file:
+key_pin_buf	kernel_code/module/key_module.c	/^int key_pin_buf(void __user *_param){$/;"	f
+key_put	kernel_code/test_program/key_api.h	/^int key_put(unsigned long key, char *buf){$/;"	f
+key_table	kernel_code/module/key_module.c	/^static key_page_table* key_table=NULL;$/;"	v	file:
+key_unpin_buf	kernel_code/module/key_module.c	/^int key_unpin_buf(void __user *_param){$/;"	f
+key_value_exit	kernel_code/module/key_module.c	/^module_exit(key_value_exit);$/;"	v
+key_value_exit	kernel_code/module/key_module.c	/^static void __exit key_value_exit(void) {$/;"	f	file:
+key_value_init	kernel_code/module/key_module.c	/^module_init(key_value_init);$/;"	v
+key_value_init	kernel_code/module/key_module.c	/^static int __init key_value_init(void) {$/;"	f	file:
+key_value_operations	kernel_code/key_value.c	/^typedef struct key_value_operations {$/;"	s	file:
+key_value_operations	kernel_code/module/key_module.c	/^typedef struct key_value_operations {$/;"	s	file:
+key_value_operations	kernel_code/nvme-core.c	/^typedef struct key_value_operations {$/;"	s	file:
+kref	kernel_code/nvme.h	/^	struct kref kref;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::kref
+lba_shift	kernel_code/nvme.h	/^	int lba_shift;$/;"	m	struct:nvme_ns
+len	kernel_code/module/key_module.c	/^	unsigned long len;$/;"	m	struct:_key_cache_node	file:
+length	kernel_code/module/key_module.c	/^	u64 length;$/;"	m	struct:_key_page_table	file:
+length	kernel_code/nvme.h	/^	int length;		\/* Of data, in bytes *\/$/;"	m	struct:nvme_iod
+list	kernel_code/nvme.h	/^	struct list_head list;$/;"	m	struct:nvme_ns	typeref:struct:nvme_ns::list_head
+main	copybw.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	kernel_code/test_program/example.c	/^int main()$/;"	f
+main	validate.cpp	/^int main(int argc, char *argv[])$/;"	f
+map_p2p_pages	kernel_code/key_value.c	/^	long (*map_p2p_pages)(unsigned long, unsigned long,unsigned long ,unsigned );$/;"	m	struct:key_value_operations	file:
+map_p2p_pages	kernel_code/module/key_module.c	/^	long (*map_p2p_pages)(unsigned long, unsigned long,unsigned long ,unsigned );$/;"	m	struct:key_value_operations	file:
+map_p2p_pages	kernel_code/nvme-core.c	/^	long (*map_p2p_pages)(unsigned long, unsigned long,unsigned long ,unsigned );$/;"	m	struct:key_value_operations	file:
+max_hw_sectors	kernel_code/nvme.h	/^	u32 max_hw_sectors;$/;"	m	struct:nvme_dev
+max_qid	kernel_code/nvme.h	/^	unsigned max_qid;$/;"	m	struct:nvme_dev
+meta_sg	kernel_code/nvme.h	/^	struct scatterlist meta_sg[1]; \/* metadata requires single contiguous buffer *\/$/;"	m	struct:nvme_iod	typeref:struct:nvme_iod::scatterlist
+mn	kernel_code/core.c	/^	const char *mn;$/;"	m	struct:nvme_core_quirk_entry	file:
+mode_select_block_len	kernel_code/nvme.h	/^	u32 mode_select_block_len;$/;"	m	struct:nvme_ns
+mode_select_num_blocks	kernel_code/nvme.h	/^	u64 mode_select_num_blocks;$/;"	m	struct:nvme_ns
+model	kernel_code/core.c	/^nvme_show_str_function(model);$/;"	v
+model	kernel_code/core.c	/^nvme_subsys_show_str_function(model);$/;"	v
+model	kernel_code/nvme.h	/^	char model[40];$/;"	m	struct:nvme_dev
+ms	kernel_code/nvme.h	/^	u16 ms;$/;"	m	struct:nvme_ns
+n	kernel_code/module/key_module.c	/^	int n;$/;"	m	struct:_key_cache_node	file:
+name	kernel_code/nvme.h	/^	char name[12];$/;"	m	struct:nvme_dev
+namespaces	kernel_code/nvme.h	/^	struct list_head namespaces;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::list_head
+nents	kernel_code/nvme.h	/^	int nents;		\/* Used in scatterlist *\/$/;"	m	struct:nvme_iod
+nguid_show	kernel_code/core.c	/^static ssize_t nguid_show(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+node	kernel_code/nvme.h	/^	struct list_head node;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::list_head
+npages	kernel_code/nvme.h	/^	int npages;		\/* In the PRP list. 0 means small pool in use *\/$/;"	m	struct:nvme_iod
+ns_cmp	kernel_code/core.c	/^static int ns_cmp(void *priv, struct list_head *a, struct list_head *b)$/;"	f	file:
+ns_id	kernel_code/nvme.h	/^	unsigned ns_id;$/;"	m	struct:nvme_ns
+nsid_show	kernel_code/core.c	/^static ssize_t nsid_show(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+num_read_iters	copybw.cpp	/^int num_read_iters  = 100;$/;"	v
+num_write_iters	copybw.cpp	/^int num_write_iters = 10000;$/;"	v
+nvme_abort_req	kernel_code/nvme-core.c	/^static void nvme_abort_req(struct request *req)$/;"	f	file:
+nvme_add_user_metadata	kernel_code/core.c	/^static void *nvme_add_user_metadata(struct bio *bio, void __user *ubuf,$/;"	f	file:
+nvme_admin_init_hctx	kernel_code/nvme-core.c	/^static int nvme_admin_init_hctx(struct blk_mq_hw_ctx *hctx, void *data,$/;"	f	file:
+nvme_admin_init_request	kernel_code/nvme-core.c	/^static int nvme_admin_init_request(void *data, struct request *req,$/;"	f	file:
+nvme_admin_queue_rq	kernel_code/nvme-core.c	/^static int nvme_admin_queue_rq(struct blk_mq_hw_ctx *hctx,$/;"	f	file:
+nvme_aen_uevent	kernel_code/core.c	/^static void nvme_aen_uevent(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_alloc_admin_tags	kernel_code/nvme-core.c	/^static int nvme_alloc_admin_tags(struct nvme_dev *dev)$/;"	f	file:
+nvme_alloc_iod	kernel_code/nvme-core.c	/^static struct nvme_iod *nvme_alloc_iod(struct request *rq, struct nvme_dev *dev,$/;"	f	file:
+nvme_alloc_ns	kernel_code/core.c	/^static void nvme_alloc_ns(struct nvme_ctrl *ctrl, unsigned nsid)$/;"	f	file:
+nvme_alloc_ns	kernel_code/nvme-core.c	/^static void nvme_alloc_ns(struct nvme_dev *dev, unsigned nsid)$/;"	f	file:
+nvme_alloc_ns_head	kernel_code/core.c	/^static struct nvme_ns_head *nvme_alloc_ns_head(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_alloc_queue	kernel_code/nvme-core.c	/^static struct nvme_queue *nvme_alloc_queue(struct nvme_dev *dev, int qid,$/;"	f	file:
+nvme_alloc_request	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_alloc_request);$/;"	v
+nvme_alloc_request	kernel_code/core.c	/^struct request *nvme_alloc_request(struct request_queue *q,$/;"	f
+nvme_assign_write_stream	kernel_code/core.c	/^static void nvme_assign_write_stream(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_async_event_work	kernel_code/core.c	/^static void nvme_async_event_work(struct work_struct *work)$/;"	f	file:
+nvme_async_probe	kernel_code/nvme-core.c	/^static void nvme_async_probe(struct work_struct *work)$/;"	f	file:
+nvme_bar	kernel_code/nvme.h	/^struct nvme_bar {$/;"	s
+nvme_bdev	kernel_code/module/key_module.c	/^static struct block_device* nvme_bdev;$/;"	v	typeref:struct:block_device	file:
+nvme_block_nr	kernel_code/nvme.h	/^static inline u64 nvme_block_nr(struct nvme_ns *ns, sector_t sector)$/;"	f
+nvme_cancel_queue_ios	kernel_code/nvme-core.c	/^static void nvme_cancel_queue_ios(struct blk_mq_hw_ctx *hctx,$/;"	f	file:
+nvme_cancel_request	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_cancel_request);$/;"	v
+nvme_cancel_request	kernel_code/core.c	/^void nvme_cancel_request(struct request *req, void *data, bool reserved)$/;"	f
+nvme_change_ctrl_state	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_change_ctrl_state);$/;"	v
+nvme_change_ctrl_state	kernel_code/core.c	/^bool nvme_change_ctrl_state(struct nvme_ctrl *ctrl,$/;"	f
+nvme_char_major	kernel_code/nvme-core.c	/^static int nvme_char_major;$/;"	v	file:
+nvme_chr_devt	kernel_code/core.c	/^static dev_t nvme_chr_devt;$/;"	v	file:
+nvme_class	kernel_code/core.c	/^static struct class *nvme_class;$/;"	v	typeref:struct:class	file:
+nvme_class	kernel_code/nvme-core.c	/^static struct class *nvme_class;$/;"	v	typeref:struct:class	file:
+nvme_clear_queue	kernel_code/nvme-core.c	/^static void nvme_clear_queue(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_cmd_info	kernel_code/nvme-core.c	/^struct nvme_cmd_info {$/;"	s	file:
+nvme_cmd_size	kernel_code/nvme-core.c	/^static unsigned int nvme_cmd_size(struct nvme_dev *dev)$/;"	f	file:
+nvme_compat_ioctl	kernel_code/nvme-core.c	/^static int nvme_compat_ioctl(struct block_device *bdev, fmode_t mode,$/;"	f	file:
+nvme_compat_ioctl	kernel_code/nvme-core.c	2044;"	d	file:
+nvme_complete_async_event	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_complete_async_event);$/;"	v
+nvme_complete_async_event	kernel_code/core.c	/^void nvme_complete_async_event(struct nvme_ctrl *ctrl, __le16 status,$/;"	f
+nvme_complete_rq	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_complete_rq);$/;"	v
+nvme_complete_rq	kernel_code/core.c	/^void nvme_complete_rq(struct request *req)$/;"	f
+nvme_completion_fn	kernel_code/nvme-core.c	/^typedef void (*nvme_completion_fn)(struct nvme_queue *, void *,$/;"	t	file:
+nvme_config_discard	kernel_code/core.c	/^static void nvme_config_discard(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_config_discard	kernel_code/nvme-core.c	/^static void nvme_config_discard(struct nvme_ns *ns)$/;"	f	file:
+nvme_configure_admin_queue	kernel_code/nvme-core.c	/^static int nvme_configure_admin_queue(struct nvme_dev *dev)$/;"	f	file:
+nvme_configure_apst	kernel_code/core.c	/^static int nvme_configure_apst(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_configure_directives	kernel_code/core.c	/^static int nvme_configure_directives(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_configure_timestamp	kernel_code/core.c	/^static int nvme_configure_timestamp(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_core_exit	kernel_code/core.c	/^module_exit(nvme_core_exit);$/;"	v
+nvme_core_exit	kernel_code/core.c	/^void nvme_core_exit(void)$/;"	f
+nvme_core_init	kernel_code/core.c	/^int __init nvme_core_init(void)$/;"	f
+nvme_core_init	kernel_code/core.c	/^module_init(nvme_core_init);$/;"	v
+nvme_core_quirk_entry	kernel_code/core.c	/^struct nvme_core_quirk_entry {$/;"	s	file:
+nvme_create_io_queues	kernel_code/nvme-core.c	/^static void nvme_create_io_queues(struct nvme_dev *dev)$/;"	f	file:
+nvme_create_queue	kernel_code/nvme-core.c	/^static int nvme_create_queue(struct nvme_queue *nvmeq, int qid)$/;"	f	file:
+nvme_ctrl_pp_status	kernel_code/core.c	/^static bool nvme_ctrl_pp_status(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_del_cq_work_handler	kernel_code/nvme-core.c	/^static void nvme_del_cq_work_handler(struct kthread_work *work)$/;"	f	file:
+nvme_del_queue_end	kernel_code/nvme-core.c	/^static void nvme_del_queue_end(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_del_queue_start	kernel_code/nvme-core.c	/^static void nvme_del_queue_start(struct kthread_work *work)$/;"	f	file:
+nvme_del_sq_work_handler	kernel_code/nvme-core.c	/^static void nvme_del_sq_work_handler(struct kthread_work *work)$/;"	f	file:
+nvme_delete_cq	kernel_code/nvme-core.c	/^static int nvme_delete_cq(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_delete_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_delete_ctrl);$/;"	v
+nvme_delete_ctrl	kernel_code/core.c	/^int nvme_delete_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_delete_ctrl_sync	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_delete_ctrl_sync);$/;"	v
+nvme_delete_ctrl_sync	kernel_code/core.c	/^int nvme_delete_ctrl_sync(struct nvme_ctrl *ctrl)$/;"	f
+nvme_delete_ctrl_work	kernel_code/core.c	/^static void nvme_delete_ctrl_work(struct work_struct *work)$/;"	f	file:
+nvme_delete_sq	kernel_code/nvme-core.c	/^static int nvme_delete_sq(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_delq_ctx	kernel_code/nvme-core.c	/^struct nvme_delq_ctx {$/;"	s	file:
+nvme_destroy_subsystem	kernel_code/core.c	/^static void nvme_destroy_subsystem(struct kref *ref)$/;"	f	file:
+nvme_dev	kernel_code/nvme.h	/^struct nvme_dev {$/;"	s
+nvme_dev_add	kernel_code/nvme-core.c	/^static int nvme_dev_add(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_attr_groups	kernel_code/core.c	/^static const struct attribute_group *nvme_dev_attr_groups[] = {$/;"	v	typeref:struct:attribute_group	file:
+nvme_dev_attrs	kernel_code/core.c	/^static struct attribute *nvme_dev_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+nvme_dev_attrs_are_visible	kernel_code/core.c	/^static umode_t nvme_dev_attrs_are_visible(struct kobject *kobj,$/;"	f	file:
+nvme_dev_attrs_group	kernel_code/core.c	/^static struct attribute_group nvme_dev_attrs_group = {$/;"	v	typeref:struct:attribute_group	file:
+nvme_dev_f	kernel_code/module/key_module.c	/^static struct file* nvme_dev_f;$/;"	v	typeref:struct:file	file:
+nvme_dev_fops	kernel_code/core.c	/^static const struct file_operations nvme_dev_fops = {$/;"	v	typeref:struct:file_operations	file:
+nvme_dev_fops	kernel_code/nvme-core.c	/^static const struct file_operations nvme_dev_fops = {$/;"	v	typeref:struct:file_operations	file:
+nvme_dev_ioctl	kernel_code/core.c	/^static long nvme_dev_ioctl(struct file *file, unsigned int cmd,$/;"	f	file:
+nvme_dev_ioctl	kernel_code/nvme-core.c	/^static long nvme_dev_ioctl(struct file *f, unsigned int cmd, unsigned long arg)$/;"	f	file:
+nvme_dev_list_remove	kernel_code/nvme-core.c	/^static void nvme_dev_list_remove(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_map	kernel_code/nvme-core.c	/^static int nvme_dev_map(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_open	kernel_code/core.c	/^static int nvme_dev_open(struct inode *inode, struct file *file)$/;"	f	file:
+nvme_dev_open	kernel_code/nvme-core.c	/^static int nvme_dev_open(struct inode *inode, struct file *f)$/;"	f	file:
+nvme_dev_release	kernel_code/nvme-core.c	/^static int nvme_dev_release(struct inode *inode, struct file *f)$/;"	f	file:
+nvme_dev_remove	kernel_code/nvme-core.c	/^static void nvme_dev_remove(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_remove_admin	kernel_code/nvme-core.c	/^static void nvme_dev_remove_admin(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_reset	kernel_code/nvme-core.c	/^static void nvme_dev_reset(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_resume	kernel_code/nvme-core.c	/^static int nvme_dev_resume(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_shutdown	kernel_code/nvme-core.c	/^static void nvme_dev_shutdown(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_start	kernel_code/nvme-core.c	/^static int nvme_dev_start(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_unmap	kernel_code/nvme-core.c	/^static void nvme_dev_unmap(struct nvme_dev *dev)$/;"	f	file:
+nvme_dev_user_cmd	kernel_code/core.c	/^static int nvme_dev_user_cmd(struct nvme_ctrl *ctrl, void __user *argp)$/;"	f	file:
+nvme_dif_complete	kernel_code/nvme-core.c	/^static void nvme_dif_complete(u32 p, u32 v, struct t10_pi_tuple *pi)$/;"	f	file:
+nvme_dif_prep	kernel_code/nvme-core.c	/^static void nvme_dif_prep(u32 p, u32 v, struct t10_pi_tuple *pi)$/;"	f	file:
+nvme_dif_remap	kernel_code/nvme-core.c	/^static void nvme_dif_remap(struct request *req,$/;"	f	file:
+nvme_disable_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_disable_ctrl);$/;"	v
+nvme_disable_ctrl	kernel_code/core.c	/^int nvme_disable_ctrl(struct nvme_ctrl *ctrl, u64 cap)$/;"	f
+nvme_disable_ctrl	kernel_code/nvme-core.c	/^static int nvme_disable_ctrl(struct nvme_dev *dev, u64 cap)$/;"	f	file:
+nvme_disable_io_queues	kernel_code/nvme-core.c	/^static void nvme_disable_io_queues(struct nvme_dev *dev)$/;"	f	file:
+nvme_disable_queue	kernel_code/nvme-core.c	/^static void nvme_disable_queue(struct nvme_dev *dev, int qid)$/;"	f	file:
+nvme_disable_streams	kernel_code/core.c	/^static int nvme_disable_streams(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_driver	kernel_code/nvme-core.c	/^static struct pci_driver nvme_driver = {$/;"	v	typeref:struct:pci_driver	file:
+nvme_dump_registers	kernel_code/nvme-core.c	3164;"	d	file:
+nvme_enable_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_enable_ctrl);$/;"	v
+nvme_enable_ctrl	kernel_code/core.c	/^int nvme_enable_ctrl(struct nvme_ctrl *ctrl, u64 cap)$/;"	f
+nvme_enable_ctrl	kernel_code/nvme-core.c	/^static int nvme_enable_ctrl(struct nvme_dev *dev, u64 cap)$/;"	f	file:
+nvme_enable_streams	kernel_code/core.c	/^static int nvme_enable_streams(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_err_handler	kernel_code/nvme-core.c	/^static const struct pci_error_handlers nvme_err_handler = {$/;"	v	typeref:struct:pci_error_handlers	file:
+nvme_error_detected	kernel_code/nvme-core.c	3163;"	d	file:
+nvme_error_resume	kernel_code/nvme-core.c	3167;"	d	file:
+nvme_error_status	kernel_code/core.c	/^static blk_status_t nvme_error_status(struct request *req)$/;"	f	file:
+nvme_error_status	kernel_code/nvme-core.c	/^static int nvme_error_status(u16 status)$/;"	f	file:
+nvme_exit	kernel_code/nvme-core.c	/^module_exit(nvme_exit);$/;"	v
+nvme_exit	kernel_code/nvme-core.c	/^static void __exit nvme_exit(void)$/;"	f	file:
+nvme_exit_hctx	kernel_code/nvme-core.c	/^static void nvme_exit_hctx(struct blk_mq_hw_ctx *hctx, unsigned int hctx_idx)$/;"	f	file:
+nvme_find_get_ns	kernel_code/core.c	/^static struct nvme_ns *nvme_find_get_ns(struct nvme_ctrl *ctrl, unsigned nsid)$/;"	f	file:
+nvme_finish_cmd	kernel_code/nvme-core.c	/^static void *nvme_finish_cmd(struct nvme_queue *nvmeq, int tag,$/;"	f	file:
+nvme_fops	kernel_code/core.c	/^static const struct block_device_operations nvme_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+nvme_fops	kernel_code/nvme-core.c	/^static const struct block_device_operations nvme_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+nvme_free_ctrl	kernel_code/core.c	/^static void nvme_free_ctrl(struct device *dev)$/;"	f	file:
+nvme_free_dev	kernel_code/nvme-core.c	/^static void nvme_free_dev(struct kref *kref)$/;"	f	file:
+nvme_free_iod	kernel_code/nvme-core.c	/^void nvme_free_iod(struct nvme_dev *dev, struct nvme_iod *iod)$/;"	f
+nvme_free_namespaces	kernel_code/nvme-core.c	/^static void nvme_free_namespaces(struct nvme_dev *dev)$/;"	f	file:
+nvme_free_ns	kernel_code/core.c	/^static void nvme_free_ns(struct kref *kref)$/;"	f	file:
+nvme_free_ns_head	kernel_code/core.c	/^static void nvme_free_ns_head(struct kref *ref)$/;"	f	file:
+nvme_free_queue	kernel_code/nvme-core.c	/^static void nvme_free_queue(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_free_queues	kernel_code/nvme-core.c	/^static void nvme_free_queues(struct nvme_dev *dev, int lowest)$/;"	f	file:
+nvme_freeze_queues	kernel_code/nvme-core.c	/^static void nvme_freeze_queues(struct nvme_dev *dev)$/;"	f	file:
+nvme_fw_act_work	kernel_code/core.c	/^static void nvme_fw_act_work(struct work_struct *work)$/;"	f	file:
+nvme_get_dq	kernel_code/nvme-core.c	/^static struct nvme_delq_ctx *nvme_get_dq(struct nvme_delq_ctx *dq)$/;"	f	file:
+nvme_get_effects_log	kernel_code/core.c	/^static int nvme_get_effects_log(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_get_features	kernel_code/nvme-core.c	/^int nvme_get_features(struct nvme_dev *dev, unsigned fid, unsigned nsid,$/;"	f
+nvme_get_fw_slot_info	kernel_code/core.c	/^static void nvme_get_fw_slot_info(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_get_log	kernel_code/core.c	/^static int nvme_get_log(struct nvme_ctrl *ctrl, u8 log_page, void *log,$/;"	f	file:
+nvme_get_log_dw10	kernel_code/core.c	/^static __le32 nvme_get_log_dw10(u8 lid, size_t size)$/;"	f	file:
+nvme_get_ns_from_disk	kernel_code/core.c	/^static struct nvme_ns *nvme_get_ns_from_disk(struct gendisk *disk,$/;"	f	file:
+nvme_get_stream_params	kernel_code/core.c	/^static int nvme_get_stream_params(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_getgeo	kernel_code/core.c	/^static int nvme_getgeo(struct block_device *bdev, struct hd_geometry *geo)$/;"	f	file:
+nvme_getgeo	kernel_code/nvme-core.c	/^static int nvme_getgeo(struct block_device *bd, struct hd_geometry *geo)$/;"	f	file:
+nvme_id_table	kernel_code/nvme-core.c	/^static const struct pci_device_id nvme_id_table[] = {$/;"	v	typeref:struct:pci_device_id	file:
+nvme_identify	kernel_code/nvme-core.c	/^int nvme_identify(struct nvme_dev *dev, unsigned nsid, unsigned cns,$/;"	f
+nvme_identify_ctrl	kernel_code/core.c	/^static int nvme_identify_ctrl(struct nvme_ctrl *dev, struct nvme_id_ctrl **id)$/;"	f	file:
+nvme_identify_ns	kernel_code/core.c	/^static struct nvme_id_ns *nvme_identify_ns(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_identify_ns_descs	kernel_code/core.c	/^static int nvme_identify_ns_descs(struct nvme_ctrl *ctrl, unsigned nsid,$/;"	f	file:
+nvme_identify_ns_list	kernel_code/core.c	/^static int nvme_identify_ns_list(struct nvme_ctrl *dev, unsigned nsid, __le32 *ns_list)$/;"	f	file:
+nvme_init	kernel_code/nvme-core.c	/^module_init(nvme_init);$/;"	v
+nvme_init	kernel_code/nvme-core.c	/^static int __init nvme_init(void)$/;"	f	file:
+nvme_init_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_init_ctrl);$/;"	v
+nvme_init_ctrl	kernel_code/core.c	/^int nvme_init_ctrl(struct nvme_ctrl *ctrl, struct device *dev,$/;"	f
+nvme_init_hctx	kernel_code/nvme-core.c	/^static int nvme_init_hctx(struct blk_mq_hw_ctx *hctx, void *data,$/;"	f	file:
+nvme_init_identify	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_init_identify);$/;"	v
+nvme_init_identify	kernel_code/core.c	/^int nvme_init_identify(struct nvme_ctrl *ctrl)$/;"	f
+nvme_init_integrity	kernel_code/core.c	/^static void nvme_init_integrity(struct gendisk *disk, u16 ms, u8 pi_type)$/;"	f	file:
+nvme_init_integrity	kernel_code/nvme-core.c	/^static void nvme_init_integrity(struct nvme_ns *ns)$/;"	f	file:
+nvme_init_ns_head	kernel_code/core.c	/^static int nvme_init_ns_head(struct nvme_ns *ns, unsigned nsid,$/;"	f	file:
+nvme_init_queue	kernel_code/nvme-core.c	/^static void nvme_init_queue(struct nvme_queue *nvmeq, u16 qid)$/;"	f	file:
+nvme_init_request	kernel_code/nvme-core.c	/^static int nvme_init_request(void *data, struct request *req,$/;"	f	file:
+nvme_init_subnqn	kernel_code/core.c	/^static void nvme_init_subnqn(struct nvme_subsystem *subsys, struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_init_subsystem	kernel_code/core.c	/^static int nvme_init_subsystem(struct nvme_ctrl *ctrl, struct nvme_id_ctrl *id)$/;"	f	file:
+nvme_io_timeout	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_io_timeout);$/;"	v
+nvme_io_timeout	kernel_code/core.c	/^unsigned int nvme_io_timeout = 30;$/;"	v
+nvme_io_timeout	kernel_code/nvme-core.c	/^unsigned char nvme_io_timeout = 30;$/;"	v
+nvme_ioctl	kernel_code/core.c	/^static int nvme_ioctl(struct block_device *bdev, fmode_t mode,$/;"	f	file:
+nvme_ioctl	kernel_code/nvme-core.c	/^static int nvme_ioctl(struct block_device *bdev, fmode_t mode, unsigned int cmd,$/;"	f	file:
+nvme_iod	kernel_code/nvme.h	/^struct nvme_iod {$/;"	s
+nvme_irq	kernel_code/nvme-core.c	/^static irqreturn_t nvme_irq(int irq, void *data)$/;"	f	file:
+nvme_irq_check	kernel_code/nvme-core.c	/^static irqreturn_t nvme_irq_check(int irq, void *data)$/;"	f	file:
+nvme_keep_alive	kernel_code/core.c	/^static int nvme_keep_alive(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_keep_alive_end_io	kernel_code/core.c	/^static void nvme_keep_alive_end_io(struct request *rq, blk_status_t status)$/;"	f	file:
+nvme_keep_alive_work	kernel_code/core.c	/^static void nvme_keep_alive_work(struct work_struct *work)$/;"	f	file:
+nvme_key_command	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_key_command); \/\/key_value$/;"	v
+nvme_key_command	kernel_code/core.c	/^int nvme_key_command(struct block_device *bdev,unsigned long arg){$/;"	f
+nvme_key_command	kernel_code/nvme-core.c	/^EXPORT_SYMBOL_GPL(nvme_key_command); \/\/key_value$/;"	v
+nvme_key_command	kernel_code/nvme-core.c	/^int nvme_key_command(struct block_device *bdev, unsigned long arg){$/;"	f
+nvme_key_max_segments	kernel_code/nvme-core.c	/^EXPORT_SYMBOL_GPL(nvme_key_max_segments); \/\/key_value$/;"	v
+nvme_key_max_segments	kernel_code/nvme-core.c	/^unsigned int nvme_key_max_segments(struct block_device *bdev){$/;"	f
+nvme_kill_queues	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_kill_queues);$/;"	v
+nvme_kill_queues	kernel_code/core.c	/^void nvme_kill_queues(struct nvme_ctrl *ctrl)$/;"	f
+nvme_known_admin_effects	kernel_code/core.c	/^static u32 nvme_known_admin_effects(u8 opcode)$/;"	f	file:
+nvme_kthread	kernel_code/nvme-core.c	/^static int nvme_kthread(void *data)$/;"	f	file:
+nvme_kthread_wait	kernel_code/nvme-core.c	/^static wait_queue_head_t nvme_kthread_wait;$/;"	v	file:
+nvme_link_reset	kernel_code/nvme-core.c	3165;"	d	file:
+nvme_major	kernel_code/nvme-core.c	/^static int nvme_major;$/;"	v	file:
+nvme_map_user_pages	kernel_code/nvme-core.c	/^struct nvme_iod *nvme_map_user_pages(struct nvme_dev *dev, int write,$/;"	f
+nvme_max_retries	kernel_code/core.c	/^static u8 nvme_max_retries = 5;$/;"	v	file:
+nvme_meta_noop	kernel_code/nvme-core.c	/^struct blk_integrity nvme_meta_noop = {$/;"	v	typeref:struct:blk_integrity
+nvme_mq_admin_ops	kernel_code/nvme-core.c	/^static struct blk_mq_ops nvme_mq_admin_ops = {$/;"	v	typeref:struct:blk_mq_ops	file:
+nvme_mq_ops	kernel_code/nvme-core.c	/^static struct blk_mq_ops nvme_mq_ops = {$/;"	v	typeref:struct:blk_mq_ops	file:
+nvme_name	kernel_code/module/key_module.c	/^static char* nvme_name;$/;"	v	file:
+nvme_noop_generate	kernel_code/nvme-core.c	/^static int nvme_noop_generate(struct blk_integrity_iter *iter)$/;"	f	file:
+nvme_noop_verify	kernel_code/nvme-core.c	/^static int nvme_noop_verify(struct blk_integrity_iter *iter)$/;"	f	file:
+nvme_npages	kernel_code/nvme-core.c	/^static int nvme_npages(unsigned size, struct nvme_dev *dev)$/;"	f	file:
+nvme_ns	kernel_code/nvme.h	/^struct nvme_ns {$/;"	s
+nvme_ns_has_pi	kernel_code/core.c	/^static inline bool nvme_ns_has_pi(struct nvme_ns *ns)$/;"	f	file:
+nvme_ns_head_open	kernel_code/core.c	/^static int nvme_ns_head_open(struct block_device *bdev, fmode_t mode)$/;"	f	file:
+nvme_ns_head_ops	kernel_code/core.c	/^const struct block_device_operations nvme_ns_head_ops = {$/;"	v	typeref:struct:block_device_operations
+nvme_ns_head_release	kernel_code/core.c	/^static void nvme_ns_head_release(struct gendisk *disk, fmode_t mode)$/;"	f	file:
+nvme_ns_id_attr_group	kernel_code/core.c	/^const struct attribute_group nvme_ns_id_attr_group = {$/;"	v	typeref:struct:attribute_group
+nvme_ns_id_attrs	kernel_code/core.c	/^static struct attribute *nvme_ns_id_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+nvme_ns_id_attrs_are_visible	kernel_code/core.c	/^static umode_t nvme_ns_id_attrs_are_visible(struct kobject *kobj,$/;"	f	file:
+nvme_ns_ids_equal	kernel_code/core.c	/^static bool nvme_ns_ids_equal(struct nvme_ns_ids *a, struct nvme_ns_ids *b)$/;"	f	file:
+nvme_ns_ids_valid	kernel_code/core.c	/^static bool nvme_ns_ids_valid(struct nvme_ns_ids *ids)$/;"	f	file:
+nvme_ns_ioctl	kernel_code/core.c	/^static int nvme_ns_ioctl(struct nvme_ns *ns, unsigned cmd, unsigned long arg)$/;"	f	file:
+nvme_ns_remove	kernel_code/core.c	/^static void nvme_ns_remove(struct nvme_ns *ns)$/;"	f	file:
+nvme_open	kernel_code/core.c	/^static int nvme_open(struct block_device *bdev, fmode_t mode)$/;"	f	file:
+nvme_open	kernel_code/nvme-core.c	/^static int nvme_open(struct block_device *bdev, fmode_t mode)$/;"	f	file:
+nvme_passthru_end	kernel_code/core.c	/^static void nvme_passthru_end(struct nvme_ctrl *ctrl, u32 effects)$/;"	f	file:
+nvme_passthru_start	kernel_code/core.c	/^static u32 nvme_passthru_start(struct nvme_ctrl *ctrl, struct nvme_ns *ns,$/;"	f	file:
+nvme_pr_clear	kernel_code/core.c	/^static int nvme_pr_clear(struct block_device *bdev, u64 key)$/;"	f	file:
+nvme_pr_command	kernel_code/core.c	/^static int nvme_pr_command(struct block_device *bdev, u32 cdw10,$/;"	f	file:
+nvme_pr_ops	kernel_code/core.c	/^static const struct pr_ops nvme_pr_ops = {$/;"	v	typeref:struct:pr_ops	file:
+nvme_pr_preempt	kernel_code/core.c	/^static int nvme_pr_preempt(struct block_device *bdev, u64 old, u64 new,$/;"	f	file:
+nvme_pr_register	kernel_code/core.c	/^static int nvme_pr_register(struct block_device *bdev, u64 old,$/;"	f	file:
+nvme_pr_release	kernel_code/core.c	/^static int nvme_pr_release(struct block_device *bdev, u64 key, enum pr_type type)$/;"	f	file:
+nvme_pr_reserve	kernel_code/core.c	/^static int nvme_pr_reserve(struct block_device *bdev, u64 key,$/;"	f	file:
+nvme_pr_type	kernel_code/core.c	/^static char nvme_pr_type(enum pr_type type)$/;"	f	file:
+nvme_probe	kernel_code/nvme-core.c	/^static int nvme_probe(struct pci_dev *pdev, const struct pci_device_id *id)$/;"	f	file:
+nvme_process_cq	kernel_code/nvme-core.c	/^static int nvme_process_cq(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_put_dq	kernel_code/nvme-core.c	/^static void nvme_put_dq(struct nvme_delq_ctx *dq)$/;"	f	file:
+nvme_put_ns	kernel_code/core.c	/^static void nvme_put_ns(struct nvme_ns *ns)$/;"	f	file:
+nvme_put_ns_from_disk	kernel_code/core.c	/^static void nvme_put_ns_from_disk(struct nvme_ns_head *head, int idx)$/;"	f	file:
+nvme_put_ns_head	kernel_code/core.c	/^static void nvme_put_ns_head(struct nvme_ns_head *head)$/;"	f	file:
+nvme_put_subsystem	kernel_code/core.c	/^static void nvme_put_subsystem(struct nvme_subsystem *subsys)$/;"	f	file:
+nvme_queue	kernel_code/nvme-core.c	/^struct nvme_queue {$/;"	s	file:
+nvme_queue_rq	kernel_code/nvme-core.c	/^static int nvme_queue_rq(struct blk_mq_hw_ctx *hctx,$/;"	f	file:
+nvme_queue_scan	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_queue_scan);$/;"	v
+nvme_queue_scan	kernel_code/core.c	/^void nvme_queue_scan(struct nvme_ctrl *ctrl)$/;"	f
+nvme_reinit_tagset	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_reinit_tagset);$/;"	v
+nvme_reinit_tagset	kernel_code/core.c	/^int nvme_reinit_tagset(struct nvme_ctrl *ctrl, struct blk_mq_tag_set *set)$/;"	f
+nvme_release	kernel_code/core.c	/^static void nvme_release(struct gendisk *disk, fmode_t mode)$/;"	f	file:
+nvme_release	kernel_code/nvme-core.c	/^static void nvme_release(struct gendisk *disk, fmode_t mode)$/;"	f	file:
+nvme_release_instance	kernel_code/nvme-core.c	/^static void nvme_release_instance(struct nvme_dev *dev)$/;"	f	file:
+nvme_release_prp_pools	kernel_code/nvme-core.c	/^static void nvme_release_prp_pools(struct nvme_dev *dev)$/;"	f	file:
+nvme_release_subsystem	kernel_code/core.c	/^static void nvme_release_subsystem(struct device *dev)$/;"	f	file:
+nvme_remove	kernel_code/nvme-core.c	/^static void nvme_remove(struct pci_dev *pdev)$/;"	f	file:
+nvme_remove_dead_ctrl	kernel_code/nvme-core.c	/^static int nvme_remove_dead_ctrl(void *arg)$/;"	f	file:
+nvme_remove_disks	kernel_code/nvme-core.c	/^static void nvme_remove_disks(struct work_struct *ws)$/;"	f	file:
+nvme_remove_invalid_namespaces	kernel_code/core.c	/^static void nvme_remove_invalid_namespaces(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_remove_namespaces	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_remove_namespaces);$/;"	v
+nvme_remove_namespaces	kernel_code/core.c	/^void nvme_remove_namespaces(struct nvme_ctrl *ctrl)$/;"	f
+nvme_report_ns_ids	kernel_code/core.c	/^static void nvme_report_ns_ids(struct nvme_ctrl *ctrl, unsigned int nsid,$/;"	f	file:
+nvme_req_needs_retry	kernel_code/core.c	/^static inline bool nvme_req_needs_retry(struct request *req)$/;"	f	file:
+nvme_reset_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_reset_ctrl);$/;"	v
+nvme_reset_ctrl	kernel_code/core.c	/^int nvme_reset_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_reset_ctrl_sync	kernel_code/core.c	/^static int nvme_reset_ctrl_sync(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_reset_failed_dev	kernel_code/nvme-core.c	/^static void nvme_reset_failed_dev(struct work_struct *ws)$/;"	f	file:
+nvme_reset_notify	kernel_code/nvme-core.c	/^static void nvme_reset_notify(struct pci_dev *pdev, bool prepare)$/;"	f	file:
+nvme_reset_workfn	kernel_code/nvme-core.c	/^static void nvme_reset_workfn(struct work_struct *work)$/;"	f	file:
+nvme_resume	kernel_code/nvme-core.c	/^static int nvme_resume(struct device *dev)$/;"	f	file:
+nvme_revalidate_disk	kernel_code/core.c	/^static int nvme_revalidate_disk(struct gendisk *disk)$/;"	f	file:
+nvme_revalidate_disk	kernel_code/nvme-core.c	/^static int nvme_revalidate_disk(struct gendisk *disk)$/;"	f	file:
+nvme_scan_ns_list	kernel_code/core.c	/^static int nvme_scan_ns_list(struct nvme_ctrl *ctrl, unsigned nn)$/;"	f	file:
+nvme_scan_ns_sequential	kernel_code/core.c	/^static void nvme_scan_ns_sequential(struct nvme_ctrl *ctrl, unsigned nn)$/;"	f	file:
+nvme_scan_work	kernel_code/core.c	/^static void nvme_scan_work(struct work_struct *work)$/;"	f	file:
+nvme_sec_submit	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_sec_submit);$/;"	v
+nvme_sec_submit	kernel_code/core.c	/^int nvme_sec_submit(void *data, u16 spsp, u8 secp, void *buffer, size_t len,$/;"	f
+nvme_set_chunk_size	kernel_code/core.c	/^static void nvme_set_chunk_size(struct nvme_ns *ns)$/;"	f	file:
+nvme_set_features	kernel_code/core.c	/^static int nvme_set_features(struct nvme_ctrl *dev, unsigned fid, unsigned dword11,$/;"	f	file:
+nvme_set_features	kernel_code/nvme-core.c	/^int nvme_set_features(struct nvme_dev *dev, unsigned fid, unsigned dword11,$/;"	f
+nvme_set_info	kernel_code/nvme-core.c	/^static void nvme_set_info(struct nvme_cmd_info *cmd, void *ctx,$/;"	f	file:
+nvme_set_instance	kernel_code/nvme-core.c	/^static int nvme_set_instance(struct nvme_dev *dev)$/;"	f	file:
+nvme_set_irq_hints	kernel_code/nvme-core.c	/^static void nvme_set_irq_hints(struct nvme_dev *dev)$/;"	f	file:
+nvme_set_latency_tolerance	kernel_code/core.c	/^static void nvme_set_latency_tolerance(struct device *dev, s32 val)$/;"	f	file:
+nvme_set_queue_count	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_set_queue_count);$/;"	v
+nvme_set_queue_count	kernel_code/core.c	/^int nvme_set_queue_count(struct nvme_ctrl *ctrl, int *count)$/;"	f
+nvme_set_queue_limits	kernel_code/core.c	/^static void nvme_set_queue_limits(struct nvme_ctrl *ctrl,$/;"	f	file:
+nvme_setup_cmd	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_setup_cmd);$/;"	v
+nvme_setup_cmd	kernel_code/core.c	/^blk_status_t nvme_setup_cmd(struct nvme_ns *ns, struct request *req,$/;"	f
+nvme_setup_discard	kernel_code/core.c	/^static blk_status_t nvme_setup_discard(struct nvme_ns *ns, struct request *req,$/;"	f	file:
+nvme_setup_flush	kernel_code/core.c	/^static inline void nvme_setup_flush(struct nvme_ns *ns,$/;"	f	file:
+nvme_setup_io_queues	kernel_code/nvme-core.c	/^static int nvme_setup_io_queues(struct nvme_dev *dev)$/;"	f	file:
+nvme_setup_prp_pools	kernel_code/nvme-core.c	/^static int nvme_setup_prp_pools(struct nvme_dev *dev)$/;"	f	file:
+nvme_setup_prps	kernel_code/nvme-core.c	/^int nvme_setup_prps(struct nvme_dev *dev, struct nvme_iod *iod, int total_len,$/;"	f
+nvme_setup_rw	kernel_code/core.c	/^static inline blk_status_t nvme_setup_rw(struct nvme_ns *ns,$/;"	f	file:
+nvme_setup_streams_ns	kernel_code/core.c	/^static int nvme_setup_streams_ns(struct nvme_ctrl *ctrl, struct nvme_ns *ns)$/;"	f	file:
+nvme_show_int_function	kernel_code/core.c	2668;"	d	file:
+nvme_show_str_function	kernel_code/core.c	2654;"	d	file:
+nvme_shutdown	kernel_code/nvme-core.c	/^static void nvme_shutdown(struct pci_dev *pdev)$/;"	f	file:
+nvme_shutdown_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_shutdown_ctrl);$/;"	v
+nvme_shutdown_ctrl	kernel_code/core.c	/^int nvme_shutdown_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_shutdown_ctrl	kernel_code/nvme-core.c	/^static int nvme_shutdown_ctrl(struct nvme_dev *dev)$/;"	f	file:
+nvme_slot_reset	kernel_code/nvme-core.c	3166;"	d	file:
+nvme_start_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_start_ctrl);$/;"	v
+nvme_start_ctrl	kernel_code/core.c	/^void nvme_start_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_start_freeze	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_start_freeze);$/;"	v
+nvme_start_freeze	kernel_code/core.c	/^void nvme_start_freeze(struct nvme_ctrl *ctrl)$/;"	f
+nvme_start_keep_alive	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_start_keep_alive);$/;"	v
+nvme_start_keep_alive	kernel_code/core.c	/^void nvme_start_keep_alive(struct nvme_ctrl *ctrl)$/;"	f
+nvme_start_queues	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_start_queues);$/;"	v
+nvme_start_queues	kernel_code/core.c	/^void nvme_start_queues(struct nvme_ctrl *ctrl)$/;"	f
+nvme_stop_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_stop_ctrl);$/;"	v
+nvme_stop_ctrl	kernel_code/core.c	/^void nvme_stop_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_stop_keep_alive	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_stop_keep_alive);$/;"	v
+nvme_stop_keep_alive	kernel_code/core.c	/^void nvme_stop_keep_alive(struct nvme_ctrl *ctrl)$/;"	f
+nvme_stop_queues	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_stop_queues);$/;"	v
+nvme_stop_queues	kernel_code/core.c	/^void nvme_stop_queues(struct nvme_ctrl *ctrl)$/;"	f
+nvme_submit_admin_async_cmd	kernel_code/nvme-core.c	/^static int nvme_submit_admin_async_cmd(struct nvme_dev *dev,$/;"	f	file:
+nvme_submit_admin_cmd	kernel_code/nvme-core.c	/^int nvme_submit_admin_cmd(struct nvme_dev *dev, struct nvme_command *cmd,$/;"	f
+nvme_submit_async_admin_req	kernel_code/nvme-core.c	/^static int nvme_submit_async_admin_req(struct nvme_dev *dev)$/;"	f	file:
+nvme_submit_cmd	kernel_code/nvme-core.c	/^static int nvme_submit_cmd(struct nvme_queue *nvmeq, struct nvme_command *cmd)$/;"	f	file:
+nvme_submit_discard	kernel_code/nvme-core.c	/^static void nvme_submit_discard(struct nvme_queue *nvmeq, struct nvme_ns *ns,$/;"	f	file:
+nvme_submit_flush	kernel_code/nvme-core.c	/^static void nvme_submit_flush(struct nvme_queue *nvmeq, struct nvme_ns *ns,$/;"	f	file:
+nvme_submit_io	kernel_code/core.c	/^static int nvme_submit_io(struct nvme_ns *ns, struct nvme_user_io __user *uio)$/;"	f	file:
+nvme_submit_io	kernel_code/nvme-core.c	/^static int nvme_submit_io(struct nvme_ns *ns, struct nvme_user_io __user *uio)$/;"	f	file:
+nvme_submit_io_cmd	kernel_code/nvme-core.c	/^int nvme_submit_io_cmd(struct nvme_dev *dev, struct nvme_ns *ns,$/;"	f
+nvme_submit_iod	kernel_code/nvme-core.c	/^static int nvme_submit_iod(struct nvme_queue *nvmeq, struct nvme_iod *iod,$/;"	f	file:
+nvme_submit_key_cmd	kernel_code/core.c	/^static int nvme_submit_key_cmd(struct request_queue *q,$/;"	f	file:
+nvme_submit_sync_cmd	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_submit_sync_cmd);$/;"	v
+nvme_submit_sync_cmd	kernel_code/core.c	/^int nvme_submit_sync_cmd(struct request_queue *q, struct nvme_command *cmd,$/;"	f
+nvme_submit_sync_cmd	kernel_code/nvme-core.c	/^static int nvme_submit_sync_cmd(struct request *req, struct nvme_command *cmd,$/;"	f	file:
+nvme_submit_user_cmd	kernel_code/core.c	/^static int nvme_submit_user_cmd(struct request_queue *q,$/;"	f	file:
+nvme_subsys_attrs	kernel_code/core.c	/^static struct attribute *nvme_subsys_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+nvme_subsys_attrs_group	kernel_code/core.c	/^static struct attribute_group nvme_subsys_attrs_group = {$/;"	v	typeref:struct:attribute_group	file:
+nvme_subsys_attrs_groups	kernel_code/core.c	/^static const struct attribute_group *nvme_subsys_attrs_groups[] = {$/;"	v	typeref:struct:attribute_group	file:
+nvme_subsys_class	kernel_code/core.c	/^static struct class *nvme_subsys_class;$/;"	v	typeref:struct:class	file:
+nvme_subsys_show_nqn	kernel_code/core.c	/^static ssize_t nvme_subsys_show_nqn(struct device *dev,$/;"	f	file:
+nvme_subsys_show_str_function	kernel_code/core.c	2123;"	d	file:
+nvme_suspend	kernel_code/nvme-core.c	/^static int nvme_suspend(struct device *dev)$/;"	f	file:
+nvme_suspend_queue	kernel_code/nvme-core.c	/^static int nvme_suspend_queue(struct nvme_queue *nvmeq)$/;"	f	file:
+nvme_sysfs_delete	kernel_code/core.c	/^static ssize_t nvme_sysfs_delete(struct device *dev,$/;"	f	file:
+nvme_sysfs_rescan	kernel_code/core.c	/^static ssize_t nvme_sysfs_rescan(struct device *dev,$/;"	f	file:
+nvme_sysfs_reset	kernel_code/core.c	/^static ssize_t nvme_sysfs_reset(struct device *dev,$/;"	f	file:
+nvme_sysfs_show_address	kernel_code/core.c	/^static ssize_t nvme_sysfs_show_address(struct device *dev,$/;"	f	file:
+nvme_sysfs_show_state	kernel_code/core.c	/^static ssize_t nvme_sysfs_show_state(struct device *dev,$/;"	f	file:
+nvme_sysfs_show_subsysnqn	kernel_code/core.c	/^static ssize_t nvme_sysfs_show_subsysnqn(struct device *dev,$/;"	f	file:
+nvme_sysfs_show_transport	kernel_code/core.c	/^static ssize_t nvme_sysfs_show_transport(struct device *dev,$/;"	f	file:
+nvme_thread	kernel_code/nvme-core.c	/^static struct task_struct *nvme_thread;$/;"	v	typeref:struct:task_struct	file:
+nvme_timeout	kernel_code/nvme-core.c	/^static enum blk_eh_timer_return nvme_timeout(struct request *req, bool reserved)$/;"	f	file:
+nvme_toggle_streams	kernel_code/core.c	/^static int nvme_toggle_streams(struct nvme_ctrl *ctrl, bool enable)$/;"	f	file:
+nvme_unfreeze	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_unfreeze);$/;"	v
+nvme_unfreeze	kernel_code/core.c	/^void nvme_unfreeze(struct nvme_ctrl *ctrl)$/;"	f
+nvme_unfreeze_queues	kernel_code/nvme-core.c	/^static void nvme_unfreeze_queues(struct nvme_dev *dev)$/;"	f	file:
+nvme_uninit_ctrl	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_uninit_ctrl);$/;"	v
+nvme_uninit_ctrl	kernel_code/core.c	/^void nvme_uninit_ctrl(struct nvme_ctrl *ctrl)$/;"	f
+nvme_unmap_user_pages	kernel_code/nvme-core.c	/^void nvme_unmap_user_pages(struct nvme_dev *dev, int write,$/;"	f
+nvme_update_disk_info	kernel_code/core.c	/^static void nvme_update_disk_info(struct gendisk *disk,$/;"	f	file:
+nvme_update_formats	kernel_code/core.c	/^static void nvme_update_formats(struct nvme_ctrl *ctrl)$/;"	f	file:
+nvme_user_cmd	kernel_code/core.c	/^static int nvme_user_cmd(struct nvme_ctrl *ctrl, struct nvme_ns *ns,$/;"	f	file:
+nvme_user_cmd	kernel_code/nvme-core.c	/^static int nvme_user_cmd(struct nvme_dev *dev, struct nvme_ns *ns,$/;"	f	file:
+nvme_validate_ns	kernel_code/core.c	/^static void nvme_validate_ns(struct nvme_ctrl *ctrl, unsigned nsid)$/;"	f	file:
+nvme_wait_dq	kernel_code/nvme-core.c	/^static void nvme_wait_dq(struct nvme_delq_ctx *dq, struct nvme_dev *dev)$/;"	f	file:
+nvme_wait_freeze	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_wait_freeze);$/;"	v
+nvme_wait_freeze	kernel_code/core.c	/^void nvme_wait_freeze(struct nvme_ctrl *ctrl)$/;"	f
+nvme_wait_freeze_timeout	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_wait_freeze_timeout);$/;"	v
+nvme_wait_freeze_timeout	kernel_code/core.c	/^void nvme_wait_freeze_timeout(struct nvme_ctrl *ctrl, long timeout)$/;"	f
+nvme_wait_ready	kernel_code/core.c	/^static int nvme_wait_ready(struct nvme_ctrl *ctrl, u64 cap, bool enabled)$/;"	f	file:
+nvme_wait_ready	kernel_code/nvme-core.c	/^static int nvme_wait_ready(struct nvme_dev *dev, u64 cap, bool enabled)$/;"	f	file:
+nvme_workq	kernel_code/nvme-core.c	/^static struct workqueue_struct *nvme_workq;$/;"	v	typeref:struct:workqueue_struct	file:
+nvme_wq	kernel_code/core.c	/^EXPORT_SYMBOL_GPL(nvme_wq);$/;"	v
+nvme_wq	kernel_code/core.c	/^struct workqueue_struct *nvme_wq;$/;"	v	typeref:struct:workqueue_struct
+nvmeq	kernel_code/nvme-core.c	/^	struct nvme_queue *nvmeq;$/;"	m	struct:nvme_cmd_info	typeref:struct:nvme_cmd_info::nvme_queue	file:
+obj-m	kernel_code/module/Makefile	/^obj-m = key_module.o$/;"	m
+obj-y	kernel_code/Makefile	/^obj-y     = fork.o exec_domain.o panic.o \\$/;"	m
+offset	kernel_code/module/key_module.c	/^	u64 offset;$/;"	m	struct:_key_page_table	file:
+offset	kernel_code/nvme.h	/^	int offset;		\/* Of PRP list *\/$/;"	m	struct:nvme_iod
+oncs	kernel_code/nvme.h	/^	u16 oncs;$/;"	m	struct:nvme_dev
+online_queues	kernel_code/nvme.h	/^	unsigned online_queues;$/;"	m	struct:nvme_dev
+open	kernel_code/key_value.c	/^	long (*open) (const char __user*);$/;"	m	struct:key_value_operations	file:
+open	kernel_code/module/key_module.c	/^    long (*open) (const char __user*);$/;"	m	struct:key_value_operations	file:
+open	kernel_code/nvme-core.c	/^	long (*open) (const char __user*);$/;"	m	struct:key_value_operations	file:
+p2p_token	kernel_code/module/key_module.c	/^	u64 p2p_token;$/;"	m	struct:_key_page_table	file:
+page_size	kernel_code/module/key_module.c	/^	u32 page_size;$/;"	m	struct:_key_page_table	file:
+page_size	kernel_code/nvme.h	/^	u32 page_size;$/;"	m	struct:nvme_dev
+page_size_fit	kernel_code/module/key_module.c	/^static inline unsigned int page_size_fit(size_t length){$/;"	f	file:
+page_table	kernel_code/module/key_module.c	/^	nvidia_p2p_page_table_t* page_table;$/;"	m	struct:_key_page_table	file:
+pci_dev	kernel_code/nvme.h	/^	struct pci_dev *pci_dev;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::pci_dev
+pi_type	kernel_code/nvme.h	/^	u8 pi_type;$/;"	m	struct:nvme_ns
+pin_size	kernel_code/module/key-p2p.h	/^	__u64 pin_size;$/;"	m	struct:I_KEY_PIN_PARAM
+pin_size	kernel_code/module/key_module.c	/^	u64 pin_size;$/;"	m	struct:_key_page_table	file:
+print_error	kernel_code/module/key_module.c	/^void print_error(int x){$/;"	f
+probe_work	kernel_code/nvme.h	/^	struct work_struct probe_work;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::work_struct
+prp_page_pool	kernel_code/nvme.h	/^	struct dma_pool *prp_page_pool;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::dma_pool
+prp_small_pool	kernel_code/nvme.h	/^	struct dma_pool *prp_small_pool;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::dma_pool
+put	kernel_code/key_value.c	/^    long (*put)(unsigned long key, const char __user *, size_t);$/;"	m	struct:key_value_operations	file:
+put	kernel_code/module/key_module.c	/^    long (*put)(unsigned long key, const char __user *, size_t);$/;"	m	struct:key_value_operations	file:
+put	kernel_code/nvme-core.c	/^    long (*put)(unsigned long key, const char __user *, size_t);$/;"	m	struct:key_value_operations	file:
+q_db	kernel_code/nvme-core.c	/^	u32 __iomem *q_db;$/;"	m	struct:nvme_queue	file:
+q_depth	kernel_code/nvme-core.c	/^	u16 q_depth;$/;"	m	struct:nvme_queue	file:
+q_depth	kernel_code/nvme.h	/^	int q_depth;$/;"	m	struct:nvme_dev
+q_dmadev	kernel_code/nvme-core.c	/^	struct device *q_dmadev;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::device	file:
+q_lock	kernel_code/nvme-core.c	/^	spinlock_t q_lock;$/;"	m	struct:nvme_queue	file:
+qid	kernel_code/nvme-core.c	/^	u16 qid;$/;"	m	struct:nvme_queue	file:
+queue	kernel_code/nvme.h	/^	struct request_queue *queue;$/;"	m	struct:nvme_ns	typeref:struct:nvme_ns::request_queue
+queue_count	kernel_code/nvme.h	/^	unsigned queue_count;$/;"	m	struct:nvme_dev
+queue_request_irq	kernel_code/nvme-core.c	/^static int queue_request_irq(struct nvme_dev *dev, struct nvme_queue *nvmeq,$/;"	f	file:
+queues	kernel_code/nvme.h	/^	struct nvme_queue **queues;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::nvme_queue
+quiet_cmd_x509certs	kernel_code/Makefile	/^quiet_cmd_x509certs  = CERTS   $@$/;"	m
+quirk_matches	kernel_code/core.c	/^static bool quirk_matches(const struct nvme_id_ctrl *id,$/;"	f	file:
+quirks	kernel_code/core.c	/^	unsigned long quirks;$/;"	m	struct:nvme_core_quirk_entry	file:
+random_get_entropy	kernel_code/module/key_module.c	60;"	d	file:
+refcount	kernel_code/nvme-core.c	/^	atomic_t refcount;$/;"	m	struct:nvme_delq_ctx	file:
+req	kernel_code/nvme-core.c	/^	struct request *req;$/;"	m	struct:async_cmd_info	typeref:struct:async_cmd_info::request	file:
+req_completion	kernel_code/nvme-core.c	/^static void req_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+reset_work	kernel_code/nvme.h	/^	struct work_struct reset_work;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::work_struct
+reset_workfn	kernel_code/nvme.h	/^	work_func_t reset_workfn;$/;"	m	struct:nvme_dev
+result	kernel_code/nvme-core.c	/^	u32 result;$/;"	m	struct:async_cmd_info	file:
+result	kernel_code/nvme-core.c	/^	u32 result;$/;"	m	struct:sync_cmd_info	file:
+rsvd1	kernel_code/nvme.h	/^	__u32			rsvd1;	\/* Reserved *\/$/;"	m	struct:nvme_bar
+rsvd2	kernel_code/nvme.h	/^	__u32			rsvd2;	\/* Reserved *\/$/;"	m	struct:nvme_bar
+scale_cache	kernel_code/module/key_module.c	/^int scale_cache(KC_NODE* k_node,unsigned int len){$/;"	f
+serial	kernel_code/core.c	/^nvme_show_str_function(serial);$/;"	v
+serial	kernel_code/core.c	/^nvme_subsys_show_str_function(serial);$/;"	v
+serial	kernel_code/nvme.h	/^	char serial[20];$/;"	m	struct:nvme_dev
+set_queue_count	kernel_code/nvme-core.c	/^static int set_queue_count(struct nvme_dev *dev, int count)$/;"	f	file:
+sg	kernel_code/nvme.h	/^	struct scatterlist sg[0];$/;"	m	struct:nvme_iod	typeref:struct:nvme_iod::scatterlist
+shift_value	kernel_code/module/key_module.c	/^static int shift_value;$/;"	v	file:
+shutdown_timeout	kernel_code/core.c	/^static unsigned char shutdown_timeout = 5;$/;"	v	file:
+shutdown_timeout	kernel_code/nvme-core.c	/^static unsigned char shutdown_timeout = 5;$/;"	v	file:
+size	kernel_code/module/key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+size	kernel_code/module/key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_P2P_PARAM
+size	kernel_code/module/key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_PIN_PARAM
+size	kernel_code/module/key_module.c	/^	unsigned long size;$/;"	m	struct:_key_cache_node	file:
+special_completion	kernel_code/nvme-core.c	/^static void special_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+sq_cmds	kernel_code/nvme-core.c	/^	struct nvme_command *sq_cmds;$/;"	m	struct:nvme_queue	typeref:struct:nvme_queue::nvme_command	file:
+sq_dma_addr	kernel_code/nvme-core.c	/^	dma_addr_t sq_dma_addr;$/;"	m	struct:nvme_queue	file:
+sq_head	kernel_code/nvme-core.c	/^	u16 sq_head;$/;"	m	struct:nvme_queue	file:
+sq_tail	kernel_code/nvme-core.c	/^	u16 sq_tail;$/;"	m	struct:nvme_queue	file:
+start_addr	kernel_code/module/key-p2p.h	/^	__u64 start_addr;$/;"	m	struct:I_KEY_PIN_PARAM
+start_addr	kernel_code/module/key_module.c	/^	u64 start_addr;$/;"	m	struct:_key_page_table	file:
+status	kernel_code/module/key_module.c	/^	unsigned int status; \/\/0:empty, 1: full, 2:need keep$/;"	m	struct:_key_cache_node	file:
+status	kernel_code/nvme-core.c	/^	int status;$/;"	m	struct:async_cmd_info	file:
+status	kernel_code/nvme-core.c	/^	int status;$/;"	m	struct:sync_cmd_info	file:
+streams	kernel_code/core.c	/^static bool streams;$/;"	v	file:
+string_matches	kernel_code/core.c	/^static bool string_matches(const char *idstr, const char *match, size_t len)$/;"	f	file:
+stripe_size	kernel_code/nvme.h	/^	u32 stripe_size;$/;"	m	struct:nvme_dev
+submit_key_cmd	kernel_code/module/key_module.c	/^static int submit_key_cmd(struct nvme_passthru_cmd *cmd){$/;"	f	file:
+sync_cmd_info	kernel_code/nvme-core.c	/^struct sync_cmd_info {$/;"	s	file:
+sync_completion	kernel_code/nvme-core.c	/^static void sync_completion(struct nvme_queue *nvmeq, void *ctx,$/;"	f	file:
+tagset	kernel_code/nvme.h	/^	struct blk_mq_tag_set tagset;$/;"	m	struct:nvme_dev	typeref:struct:nvme_dev::blk_mq_tag_set
+task	kernel_code/nvme-core.c	/^	struct task_struct *task;$/;"	m	struct:sync_cmd_info	typeref:struct:sync_cmd_info::task_struct	file:
+untouch_cache	kernel_code/module/key_module.c	/^int untouch_cache(KC_NODE* k_node){$/;"	f
+use_threaded_interrupts	kernel_code/nvme-core.c	/^static int use_threaded_interrupts;$/;"	v	file:
+uuid_show	kernel_code/core.c	/^static ssize_t uuid_show(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+va_space	kernel_code/module/key_module.c	/^	u32 va_space;$/;"	m	struct:_key_page_table	file:
+vid	kernel_code/core.c	/^	u16 vid;$/;"	m	struct:nvme_core_quirk_entry	file:
+vs	kernel_code/nvme.h	/^	__u32			vs;	\/* Version *\/$/;"	m	struct:nvme_bar
+vwc	kernel_code/nvme.h	/^	u8 vwc;$/;"	m	struct:nvme_dev
+waiter	kernel_code/nvme-core.c	/^	struct task_struct *waiter;$/;"	m	struct:nvme_delq_ctx	typeref:struct:nvme_delq_ctx::task_struct	file:
+work	kernel_code/nvme-core.c	/^	struct kthread_work work;$/;"	m	struct:async_cmd_info	typeref:struct:async_cmd_info::kthread_work	file:
+worker	kernel_code/nvme-core.c	/^	struct kthread_worker *worker;$/;"	m	struct:async_cmd_info	typeref:struct:async_cmd_info::kthread_worker	file:
+worker	kernel_code/nvme-core.c	/^	struct kthread_worker *worker;$/;"	m	struct:nvme_delq_ctx	typeref:struct:nvme_delq_ctx::kthread_worker	file:
+wwid_show	kernel_code/core.c	/^static ssize_t wwid_show(struct device *dev, struct device_attribute *attr,$/;"	f	file:

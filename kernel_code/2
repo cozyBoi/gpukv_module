@@ -1,0 +1,6 @@
+/usr/sbin/grub-set-default is a wrapper provided by grub-legacy-ec2.
+It ensures that the appropriate 'set-default' is called.
+For specific version or help info invoke one of the following directly:
+  /usr/sbin/grub-set-default.real
+ and 
+  /usr/sbin/grub-set-default-legacy-ec2 

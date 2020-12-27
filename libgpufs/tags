@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_ONCE	key_module.c	73;"	d	file:
+GPU_BOUND_MASK	key_module.c	56;"	d	file:
+GPU_BOUND_OFFSET	key_module.c	55;"	d	file:
+GPU_BOUND_SHIFT	key_module.c	53;"	d	file:
+GPU_BOUND_SIZE	key_module.c	54;"	d	file:
+ID_MASK	key_module.c	58;"	d	file:
+I_KEY_P2P_GET	key-p2p.h	32;"	d
+I_KEY_P2P_GET_PARAM	key-p2p.h	/^struct I_KEY_P2P_GET_PARAM{$/;"	s
+I_KEY_P2P_PARAM	key-p2p.h	/^struct I_KEY_P2P_PARAM{$/;"	s
+I_KEY_P2P_PUT	key-p2p.h	33;"	d
+I_KEY_PIN_BUF	key-p2p.h	30;"	d
+I_KEY_PIN_PARAM	key-p2p.h	/^struct I_KEY_PIN_PARAM{$/;"	s
+I_KEY_UNPIN_BUF	key-p2p.h	31;"	d
+I_KEY_UNPIN_PARAM	key-p2p.h	/^struct I_KEY_UNPIN_PARAM{$/;"	s
+KBUILD_EXTRA_SYMBOLS	Makefile	/^KBUILD_EXTRA_SYMBOLS := \/usr\/src\/nvidia-410.48\/Module.symvers$/;"	m
+KC_NODE	key_module.c	/^}KC_NODE;$/;"	t	typeref:struct:_key_cache_node	file:
+KDIR	Makefile	/^KDIR := \/usr\/src\/linux-4.1.52\/ $/;"	m
+KEY_GET	key_module.c	44;"	d	file:
+KEY_IOCTL	key-p2p.h	5;"	d
+KEY_OPERATIONS	key_module.c	/^}KEY_OPERATIONS;$/;"	t	typeref:struct:key_value_operations	file:
+KEY_PUT	key_module.c	45;"	d	file:
+Key_map_p2p_pages	key_module.c	/^long Key_map_p2p_pages(unsigned long _iod,unsigned long _dev, unsigned long _off,unsigned length){$/;"	f
+Key_value_close	key_module.c	/^long Key_value_close(const char __user* filename){ $/;"	f
+Key_value_get	key_module.c	/^long Key_value_get(unsigned long key, const char __user *buf, size_t length){$/;"	f
+Key_value_open	key_module.c	/^long Key_value_open(const char __user* filename){$/;"	f
+Key_value_put	key_module.c	/^long Key_value_put(unsigned long key, const char __user *buf, size_t length){$/;"	f
+LBA_SHIFT	key_module.c	41;"	d	file:
+MASK_DU	key_module.c	38;"	d	file:
+MAX	key_module.c	71;"	d	file:
+MAX_FILENAME	key_module.c	39;"	d	file:
+MAX_NUM	key_module.c	42;"	d	file:
+MIN	key_module.c	70;"	d	file:
+NAME	key_module.c	36;"	d	file:
+NAME_CLASS	key_module.c	37;"	d	file:
+NVIDIA_SRC_DIR	Makefile	/^NVIDIA_SRC_DIR=\/usr\/src\/nvidia-410.48\/nvidia$/;"	m
+P2P_GET	key_module.c	46;"	d	file:
+P2P_PUT	key_module.c	47;"	d	file:
+P2P_READ	key_module.c	49;"	d	file:
+P2P_WRITE	key_module.c	50;"	d	file:
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+__KEY_P2P_H	key-p2p.h	2;"	d
+__this_module	key_module.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	key_module.mod.c	/^__used$/;"	v	file:
+_key_cache_node	key_module.c	/^typedef struct _key_cache_node{$/;"	s	file:
+_key_page_table	key_module.c	/^typedef struct _key_page_table{$/;"	s	file:
+addr	key-p2p.h	/^	__u64 addr;$/;"	m	struct:I_KEY_PIN_PARAM
+arr_buf	key_module.c	/^		char **arr_buf;$/;"	m	union:_key_cache_node::__anon1	file:
+bar_addr	key-p2p.h	/^	__u64 bar_addr;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+bar_addr	key-p2p.h	/^	__u64 bar_addr;$/;"	m	struct:I_KEY_P2P_PARAM
+break_cache	key_module.c	/^int break_cache(KC_NODE* k_node){$/;"	f
+buf	key_module.c	/^		char *buf[MAX_NUM];$/;"	m	union:_key_cache_node::__anon1	file:
+cache_copy	key_module.c	/^int cache_copy(KC_NODE* k_node,const char __user *buf,size_t length){$/;"	f
+call_flag	key_module.c	/^	int call_flag;$/;"	m	struct:_key_page_table	file:
+close	key_module.c	/^    long (*close) (const char __user*);$/;"	m	struct:key_value_operations	file:
+data_offset	key-p2p.h	/^	__u64 data_offset;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+data_offset	key-p2p.h	/^	__u64 data_offset;$/;"	m	struct:I_KEY_P2P_PARAM
+dclass	key_module.c	/^static struct class* dclass=NULL;$/;"	v	typeref:struct:class	file:
+device	key_module.c	/^static struct device *device=NULL;$/;"	v	typeref:struct:device	file:
+get	key_module.c	/^    long (*get) (unsigned long key, const char __user *, size_t );$/;"	m	struct:key_value_operations	file:
+get_cache	key_module.c	/^KC_NODE* get_cache(unsigned long key,unsigned int length,const char __user *buf,char mode){$/;"	f
+get_p2p_free_callback	key_module.c	/^void get_p2p_free_callback(void *data){$/;"	f
+get_tsc_khz	key_module.c	64;"	d	file:
+get_tsc_khz	key_module.c	66;"	d	file:
+id	key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+id	key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_P2P_PARAM
+id	key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_PIN_PARAM
+id	key-p2p.h	/^	__u32 id;$/;"	m	struct:I_KEY_UNPIN_PARAM
+id	key_module.c	/^	u32 id;$/;"	m	struct:_key_page_table	file:
+inter_fops	key_module.c	/^static struct file_operations inter_fops=$/;"	v	typeref:struct:file_operations	file:
+inter_ioctl	key_module.c	/^static int inter_ioctl(struct inode *inode,unsigned int cmd, unsigned long arg){  \/\/unlocked_ioctl은 3 parameter!!!!!!,옛날엔 4개$/;"	f	file:
+inter_major	key_module.c	/^static int inter_major=0;\/\/, inter_minor=0;$/;"	v	file:
+inter_open	key_module.c	/^static int inter_open(struct inode *minode, struct file *mfile){$/;"	f	file:
+inter_release	key_module.c	/^static int inter_release(struct inode *minode, struct file *mfile){$/;"	f	file:
+key	key_module.c	/^	unsigned long key;$/;"	m	struct:_key_cache_node	file:
+key_cmd_limit	key_module.c	/^static unsigned int key_cmd_limit;$/;"	v	file:
+key_ops	key_module.c	/^static KEY_OPERATIONS key_ops=$/;"	v	file:
+key_p2p_op	key_module.c	/^int key_p2p_op(int mode, void __user *_param){$/;"	f
+key_page_table	key_module.c	/^}key_page_table;$/;"	t	typeref:struct:_key_page_table	file:
+key_pin_buf	key_module.c	/^int key_pin_buf(void __user *_param){$/;"	f
+key_table	key_module.c	/^static key_page_table* key_table=NULL;$/;"	v	file:
+key_unpin_buf	key_module.c	/^int key_unpin_buf(void __user *_param){$/;"	f
+key_value_exit	key_module.c	/^module_exit(key_value_exit);$/;"	v
+key_value_exit	key_module.c	/^static void __exit key_value_exit(void) {$/;"	f	file:
+key_value_init	key_module.c	/^module_init(key_value_init);$/;"	v
+key_value_init	key_module.c	/^static int __init key_value_init(void) {$/;"	f	file:
+key_value_operations	key_module.c	/^typedef struct key_value_operations {$/;"	s	file:
+len	key_module.c	/^	unsigned long len;$/;"	m	struct:_key_cache_node	file:
+length	key_module.c	/^	u64 length;$/;"	m	struct:_key_page_table	file:
+map_p2p_pages	key_module.c	/^	long (*map_p2p_pages)(unsigned long, unsigned long,unsigned long ,unsigned );$/;"	m	struct:key_value_operations	file:
+n	key_module.c	/^	int n;$/;"	m	struct:_key_cache_node	file:
+nvme_bdev	key_module.c	/^static struct block_device* nvme_bdev;$/;"	v	typeref:struct:block_device	file:
+nvme_dev_f	key_module.c	/^static struct file* nvme_dev_f;$/;"	v	typeref:struct:file	file:
+nvme_name	key_module.c	/^static char* nvme_name;$/;"	v	file:
+obj-m	Makefile	/^obj-m = key_module.o$/;"	m
+offset	key_module.c	/^	u64 offset;$/;"	m	struct:_key_page_table	file:
+open	key_module.c	/^    long (*open) (const char __user*);$/;"	m	struct:key_value_operations	file:
+p2p_token	key_module.c	/^	u64 p2p_token;$/;"	m	struct:_key_page_table	file:
+page_size	key_module.c	/^	u32 page_size;$/;"	m	struct:_key_page_table	file:
+page_size_fit	key_module.c	/^static inline unsigned int page_size_fit(size_t length){$/;"	f	file:
+page_table	key_module.c	/^	nvidia_p2p_page_table_t* page_table;$/;"	m	struct:_key_page_table	file:
+pin_size	key-p2p.h	/^	__u64 pin_size;$/;"	m	struct:I_KEY_PIN_PARAM
+pin_size	key_module.c	/^	u64 pin_size;$/;"	m	struct:_key_page_table	file:
+print_error	key_module.c	/^void print_error(int x){$/;"	f
+put	key_module.c	/^    long (*put)(unsigned long key, const char __user *, size_t);$/;"	m	struct:key_value_operations	file:
+random_get_entropy	key_module.c	60;"	d	file:
+scale_cache	key_module.c	/^int scale_cache(KC_NODE* k_node,unsigned int len){$/;"	f
+shift_value	key_module.c	/^static int shift_value;$/;"	v	file:
+size	key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_P2P_GET_PARAM
+size	key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_P2P_PARAM
+size	key-p2p.h	/^	__u64 size;$/;"	m	struct:I_KEY_PIN_PARAM
+size	key_module.c	/^	unsigned long size;$/;"	m	struct:_key_cache_node	file:
+start_addr	key-p2p.h	/^	__u64 start_addr;$/;"	m	struct:I_KEY_PIN_PARAM
+start_addr	key_module.c	/^	u64 start_addr;$/;"	m	struct:_key_page_table	file:
+status	key_module.c	/^	unsigned int status; \/\/0:empty, 1: full, 2:need keep$/;"	m	struct:_key_cache_node	file:
+submit_key_cmd	key_module.c	/^static int submit_key_cmd(struct nvme_passthru_cmd *cmd){$/;"	f	file:
+untouch_cache	key_module.c	/^int untouch_cache(KC_NODE* k_node){$/;"	f
+va_space	key_module.c	/^	u32 va_space;$/;"	m	struct:_key_page_table	file:
